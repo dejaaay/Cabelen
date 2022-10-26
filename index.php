@@ -9,7 +9,11 @@
 <body>
     <nav>
         <li>asdasd</li>
+        <li> TtestTEstTEstTEst</li>
+        <li> This is peter</li>
+
     </nav>
     
 </body>
 </html>
+
