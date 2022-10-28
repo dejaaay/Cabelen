@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Latest compiled and minified CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="lance.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
-
+    
+    <link href="gallery-lance.css" rel="stylesheet">
     <title>Blog Gallery</title>
 </head>
 <body>
@@ -165,6 +166,8 @@
       </a>
     </div>
   </div>
+</div>
+</div>
 
 <div class="imgGallery p-5">
 <div class="row">
@@ -189,6 +192,8 @@
       </a>
     </div>
   </div>
+</div>
+</div>
 
 <div class="imgGallery p-5">
 <div class="row">
@@ -213,9 +218,44 @@
       </a>
     </div>
   </div>
-
 </div>
 </div>
 
+<footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>About Us</h4>
+          <p style="color:white;">
+          Cabalen is a kapampangan word which means “Kabayan” in tagalog. <br>
+          We chose this word because we treat every site visitor as our “Kabayan”. 
+          </p>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Blogs</h4>
+          <p style="color:white;">
+          Dive into different culture, food, and tourist destination in Pampanga.
+          </p>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Pampanga</h4>
+           <p style="color:white;">
+           Pampanga is located in the central part of Region III. It is bounded on the north of Tarlac and Nueva Ecija, on the east by Bulacan, southwest by Bataan and west by Zambales. <br>
+           It’s terrain is relatively flat with only one distinct mountain, Mount Arayat.
+          </p>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fab fa-twitter"></i></a>
+  	 				<a href="#"><i class="fab fa-instagram"></i></a>
+  	 				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+</footer>
+  
 </body>
 </html>
