@@ -13,7 +13,7 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- Content section 1-->
+    <!-- Content Section 1 -->
     <section id="scroll">
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
@@ -29,7 +29,7 @@
                 </div>
             </div>
         </section>
-    <!-- Content section 2-->
+    <!-- Content Section 2 -->
     <section>
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
@@ -45,7 +45,7 @@
                 </div>
             </div>
         </section>
-        <!-- Content section 3-->
+        <!-- Content Section 3 -->
         <section>
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
