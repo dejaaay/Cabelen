@@ -38,10 +38,17 @@ frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen>
 </iframe>
-
+<!--news and blogs-->
 <div class= newsandblogs>
     <h1> News and blogs</h1>
-    
+    <div class="card" style="width: 18rem;">
+    <img src="https://www.karlaroundtheworld.com/wp-content/uploads/2019/12/Pampanga-141-of-177-scaled.jpg" class="card-img-top" alt="pampanga art">
+    <div class="card-body">
+    <h5 class="card-title">Kapampangan Art</h5>
+    <p class="card-text">There is no doubt that Pampanga has a very rich culture and tradition. There are some of these cultures that are famous not only in Pampanga but in the whole country</p>
+    <a href="https://kapampangan.org/is-there-kapampangan-art/" class="btn btn-primary">View article</a>
+  </div>
+</div>
 </div>
     
 </body>
