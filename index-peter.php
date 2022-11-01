@@ -14,7 +14,7 @@
     <title>Cabalen</title>
 </head>
 <body>
-<!--navbar-->
+<!--space here for navbar-->
 <!--greetings part below-->
 <iframe 
     class= "center"
@@ -26,19 +26,23 @@
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
     allowfullscreen>
 </iframe>
- <!--Current news and updates grid-->
+ <!--space here for Current news and updates grid-->
 <!--Video for about -->
 <iframe 
 class= "center"
 width="560" 
 height="315" 
-src="https://www.youtube.com/embed/tuO6oCxZU-s?autoplay=1" 
+src="https://www.youtube.com/embed/tuO6oCxZU-s" 
 title="YouTube video player" 
 frameborder="0" 
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen>
 </iframe>
 
+<div class= newsandblogs>
+    <h1> News and blogs</h1>
+    
+</div>
     
 </body>
 </html>
