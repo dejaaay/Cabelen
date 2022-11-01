@@ -15,8 +15,8 @@
 </head>
 <body>
 
-<div class="container">   
-<video><iframe width="560" height="315" src="https://www.youtube.com/embed/-3k-SC22zbA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></video>
+<div class="container center">   
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-3k-SC22zbA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div> 
     
 </body>
