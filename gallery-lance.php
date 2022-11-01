@@ -241,7 +241,7 @@
   	 			<h4>Pampanga</h4>
            <p style="color:white;">
            Pampanga is located in the central part of Region III. It is bounded on the north of Tarlac and Nueva Ecija, on the east by Bulacan, southwest by Bataan and west by Zambales. <br>
-           It’s terrain is relatively flat with only one distinct mountain, Mount Arayat.
+           Its terrain is relatively flat with only one distinct mountain, Mount Arayat.
           </p>
   	 		</div>
   	 		<div class="footer-col">
