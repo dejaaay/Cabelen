@@ -39,16 +39,40 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
 allowfullscreen>
 </iframe>
 <!--news and blogs-->
-<div class= newsandblogs>
-    <h1> News and blogs</h1>
-    <div class="card" style="width: 18rem;">
-    <img src="https://www.karlaroundtheworld.com/wp-content/uploads/2019/12/Pampanga-141-of-177-scaled.jpg" class="card-img-top" alt="pampanga art">
-    <div class="card-body">
-    <h5 class="card-title">Kapampangan Art</h5>
-    <p class="card-text">There is no doubt that Pampanga has a very rich culture and tradition. There are some of these cultures that are famous not only in Pampanga but in the whole country</p>
-    <a href="https://kapampangan.org/is-there-kapampangan-art/" class="btn btn-primary">View article</a>
-  </div>
-</div>
+<h1> News and blogs</h1>
+<div class= "container">
+    <div class= "row">
+        <div class= "col">
+            <div class="card" style="width: 18rem;">
+               <img src="https://www.karlaroundtheworld.com/wp-content/uploads/2019/12/Pampanga-141-of-177-scaled.jpg" class="card-img-top" alt="pampanga art">
+               <div class="card-body">
+                <h5 class="card-title">Kapampangan Art</h5>
+                <p class="card-text">There is no doubt that Pampanga has a very rich culture and tradition. There are some of these cultures that are famous not only in Pampanga but in the whole country</p>
+                <a href="https://kapampangan.org/is-there-kapampangan-art/" class="btn btn-primary">View article</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">      
+            <div class="card" style="width: 18rem;">
+                <img src="https://thehappytrip.com/wp-content/uploads/2019/08/IMG_20190812_095842.jpg" class="card-img-top" alt="Puning Hot Spring">
+                <div class="card-body">
+                    <h5 class="card-title">Stakeholders urge reopening of Puning Hot Sprin</h5>
+                    <p class="card-text">CITY OF SAN FERNANDO Tourism stakeholders are calling for the reopening of the Puning Hot Spring located in between Angeles City and Porac town.</p>
+                    <a href="https://www.sunstar.com.ph/article/1944890/pampanga/local-news/stakeholders-urge-reopening-of-puning-hot-spring" class="btn btn-primary">View Article</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
     
 </body>
