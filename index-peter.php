@@ -14,19 +14,31 @@
     <title>Cabalen</title>
 </head>
 <body>
-
-  
+<!--navbar-->
+<!--greetings part below-->
+<iframe 
+    class= "center"
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/-3k-SC22zbA" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+</iframe>
+ <!--Current news and updates grid-->
+<!--Video for about -->
 <iframe 
 class= "center"
 width="560" 
 height="315" 
-src="https://www.youtube.com/embed/-3k-SC22zbA" 
+src="https://www.youtube.com/embed/tuO6oCxZU-s" 
 title="YouTube video player" 
 frameborder="0" 
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen>
 </iframe>
- 
+
     
 </body>
 </html>
