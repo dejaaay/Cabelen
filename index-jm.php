@@ -18,7 +18,7 @@
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid" src="assets/img/01.jpeg" alt="Cabalen Image 1" /></div>
+                        <div class="p-5"><img class="img-fluid" src="assets/img/HotAirBalloonClark01.jpg" alt="Cabalen Image 1"/></div>
                     </div>
                     <div class="col-lg-6 order-lg-1">
                         <div class="p-5">
@@ -34,36 +34,16 @@
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-6">
-                        <div class="p-5"><img class="img-fluid" src="assets/img/02.jpeg" alt="Cabalen Image 2" /></div>
+                        <div class="p-5"><img class="img-fluid" src="assets/img/LigliganParul01.jpg" alt="Cabalen Image 2"/></div>
                     </div>
                     <div class="col-lg-6">
                         <div class="p-5">
-                            <h2 class="display-4">CABALEN 2</h2>
+                            <h2 class="display-4">Learn about the Culture</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Content Section 3 -->
-        <section>
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid" src="assets/img/03.jpeg" alt="Cabalen Image 3" /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">Eh paano kung</h2>
-                            <p>Hindi, hindi ka nakilala? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Footer-->
-        <footer class="py-5 bg-black">
-            <div class="container px-5"><p class="m-0 text-center text-white small">Placeholder</p></div>
-        </footer>
 </body>
 </html>
