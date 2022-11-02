@@ -61,7 +61,9 @@
                 <div class="card-body">
                     <h5 class="card-title">Stakeholders urge reopening of Puning Hot Sprin</h5>
                     <p class="card-text">CITY OF SAN FERNANDO Tourism stakeholders are calling for the reopening of the Puning Hot Spring located in between Angeles City and Porac town.</p>
-                    <a href="https://www.sunstar.com.ph/article/1944890/pampanga/local-news/stakeholders-urge-reopening-of-puning-hot-spring" class="btn btn-primary">View Article</a>
+                    <div class="card-footer">
+                        <a href="https://www.sunstar.com.ph/article/1944890/pampanga/local-news/stakeholders-urge-reopening-of-puning-hot-spring" class="btn btn-primary">View Article</a>
+                    </div>          
                 </div>
             </div>
         </div>
