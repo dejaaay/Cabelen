@@ -26,6 +26,7 @@
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
     allowfullscreen>
 </iframe>
+<hr><hr><hr>
  <!--space here for Current news and updates grid-->
 <!--Video for about -->
 <iframe 
