@@ -41,6 +41,7 @@
 </iframe>
 <!--news and blogs-->
 <h1> News and blogs</h1>
+<div class= "container">
     <div class= "row">
         <div class= "col">
             <div class="card" style="width: 18rem;">
@@ -82,7 +83,8 @@
                 </div>
             </div>
         </div>
-    </div>   
+    </div>
+</div>   
 </body>
 </html>
 
