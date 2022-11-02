@@ -40,6 +40,7 @@
     allowfullscreen>
 </iframe>
 <!--news and blogs-->
+<br><br><br>
 <h1> News and blogs</h1>
 <div class= "container">
     <div class= "row">
