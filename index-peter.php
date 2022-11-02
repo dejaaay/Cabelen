@@ -85,7 +85,9 @@
                 <div class="card-body">
                     <h5 class="card-title">Agencies urged: Take measures to prevent landslides at Mount Arayat</h5>
                     <p class="card-text">Gonzales over the weekend met with officials of the two agencies in preparation for the onslaught of tropical storm "Paeng" and tropical depression “Queenie”.</p>
-                    <a href="https://www.sunstar.com.ph/article/1944981/pampanga/local-news/agencies-urged-take-measures-to-prevent-landslides-at-mount-arayat" class="btn btn-primary">View Article</a>
+                    <div class="card-footer">
+                        <a href="https://www.sunstar.com.ph/article/1944981/pampanga/local-news/agencies-urged-take-measures-to-prevent-landslides-at-mount-arayat" class="btn btn-primary">View Article</a>
+                    </div>
                 </div>
             </div>
         </div>
