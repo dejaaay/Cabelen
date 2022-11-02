@@ -45,9 +45,7 @@
     <div class= "row">
         <div class= "col">
             <div class="card" style="width: 18rem;">
-                <div class="card-image">
-               <img src="https://www.karlaroundtheworld.com/wp-content/uploads/2019/12/Pampanga-141-of-177-scaled.jpg" class="card-img-top" alt="pampanga art">
-                </div>      
+               <img src="https://www.karlaroundtheworld.com/wp-content/uploads/2019/12/Pampanga-141-of-177-scaled.jpg" class="card-img-top" alt="pampanga art">      
                <div class="card-body">
                 <h5 class="card-title">Kapampangan Art</h5>
                 <p class="card-text">There is no doubt that Pampanga has a very rich culture and tradition. There are some of these cultures that are famous not only in Pampanga but in the whole country</p>
@@ -57,11 +55,9 @@
         </div>
         <div class="col">      
             <div class="card" style="width: 18rem;">
-                    <div class="card-image">
                 <img src="https://thehappytrip.com/wp-content/uploads/2019/08/IMG_20190812_095842.jpg" class="card-img-top" alt="Puning Hot Spring">
-                    </div>
                 <div class="card-body">
-                    <h5 class="card-title">Stakeholders urge reopening of Puning Hot Spring</h5>
+                    <h5 class="card-title">Stakeholders urge reopening of Puning Hot Sprin</h5>
                     <p class="card-text">CITY OF SAN FERNANDO Tourism stakeholders are calling for the reopening of the Puning Hot Spring located in between Angeles City and Porac town.</p>
                     <a href="https://www.sunstar.com.ph/article/1944890/pampanga/local-news/stakeholders-urge-reopening-of-puning-hot-spring" class="btn btn-primary">View Article</a>
                 </div>
@@ -69,9 +65,7 @@
         </div>
         <div class="col">
             <div class="card" style="width: 18rem;">
-                    <div class="card-image">
                 <img src="https://sansimonpampanga.gov.ph/gwt/images/logo/2019/LGU%20Logo.png" class="card-img-top" alt="...">
-                    </div>
                 <div class="card-body">
                     <h5 class="card-title">San Simon village wins Best Gulayan Sa Barangay</h5>
                     <p class="card-text">SAN SIMON Barangay Santa Monica of this town was named champion in the provincial level Search for Best Gulayan sa Barangay (GSB) in Pampanga.</p>
