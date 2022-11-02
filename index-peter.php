@@ -31,8 +31,8 @@
 <!--Video for about -->
 <iframe 
     class= "center"
-    width="560" 
-    height="315" 
+    width="1910" 
+    height="900" 
     src="https://www.youtube.com/embed/tuO6oCxZU-s" 
     title="YouTube video player" 
     frameborder="0" 
