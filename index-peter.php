@@ -44,7 +44,7 @@
 <div class= "container">
     <div class= "row">
         <div class= "col">
-            <div class="card" style="width: 18rem;">
+            <div class="card h-100" style="width: 18rem;">
                <img src="https://www.karlaroundtheworld.com/wp-content/uploads/2019/12/Pampanga-141-of-177-scaled.jpg" class="card-img-top" alt="pampanga art">
                <div class="card-body">
                 <h5 class="card-title">Kapampangan Art</h5>
