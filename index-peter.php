@@ -18,7 +18,7 @@
 <!--greetings part below-->
 <iframe 
     class= "center"
-    width="2000" 
+    width="1900" 
     height="515" 
     src="https://www.youtube.com/embed/-3k-SC22zbA?autoplay=1" 
     title="YouTube video player" 
