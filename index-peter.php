@@ -67,7 +67,7 @@
         </div>
         <div class="col">
             <div class="card" style="width: 18rem;">
-                <img src="https://sansimonpampanga.gov.ph/gwt/images/logo/2019/LGU%20Logo.png" class="card-img-top" alt="...">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6V3TVmrwEZFTl16YCGky_yVJh7Y6FQXWClw&usqp=CAU" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">San Simon village wins Best Gulayan Sa Barangay</h5>
                     <p class="card-text">SAN SIMON Barangay Santa Monica of this town was named champion in the provincial level Search for Best Gulayan sa Barangay (GSB) in Pampanga.</p>
