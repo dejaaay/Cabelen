@@ -227,14 +227,17 @@
   	 		<div class="footer-col">
   	 			<h4>About Us</h4>
           <p style="color:white;">
-          Cabalen is a kapampangan word which means “Kabayan” in tagalog. <br>
+          Cabalen is a kapampangan word which means “Kabayan” in Tagalog. <br>
           We chose this word because we treat every site visitor as our “Kabayan”. 
+          Our goal is to give you access to a Pampanga website that provides the best travel spots,
+          services, food, culture, and information at your fingertips 
+          to help you make the most of your vacation!
           </p>
   	 		</div>
   	 		<div class="footer-col">
   	 			<h4>Blogs</h4>
           <p style="color:white;">
-          Dive into different culture, food, and tourist destination in Pampanga.
+          Dive into different cultures, foods, and tourist destinations in Pampanga.
           </p>
   	 		</div>
   	 		<div class="footer-col">
