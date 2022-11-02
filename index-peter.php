@@ -19,7 +19,7 @@
 <iframe 
     class= "center"
     width="1910" 
-    height="515" 
+    height="1000" 
     src="https://www.youtube.com/embed/-3k-SC22zbA?autoplay=1" 
     title="YouTube video player" 
     frameborder="0" 
