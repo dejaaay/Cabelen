@@ -18,37 +18,41 @@
 <!--greetings part below-->
 <iframe 
     class= "center"
-    width="560" 
-    height="315" 
+    width="1910" 
+    height="900" 
     src="https://www.youtube.com/embed/-3k-SC22zbA?autoplay=1" 
     title="YouTube video player" 
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
     allowfullscreen>
 </iframe>
+<br><br><br>
  <!--space here for Current news and updates grid-->
 <!--Video for about -->
 <iframe 
-class= "center"
-width="560" 
-height="315" 
-src="https://www.youtube.com/embed/tuO6oCxZU-s" 
-title="YouTube video player" 
-frameborder="0" 
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen>
+    class= "center"
+    width="1910" 
+    height="900" 
+    src="https://www.youtube.com/embed/tuO6oCxZU-s" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
 </iframe>
 <!--news and blogs-->
+<br><br><br>
 <h1> News and blogs</h1>
 <div class= "container">
     <div class= "row">
         <div class= "col">
             <div class="card" style="width: 18rem;">
-               <img src="https://www.karlaroundtheworld.com/wp-content/uploads/2019/12/Pampanga-141-of-177-scaled.jpg" class="card-img-top" alt="pampanga art">
+               <img src="https://www.karlaroundtheworld.com/wp-content/uploads/2019/12/Pampanga-141-of-177-scaled.jpg" class="card-img-top" alt="pampanga art">      
                <div class="card-body">
-                <h5 class="card-title">Kapampangan Art</h5>
-                <p class="card-text">There is no doubt that Pampanga has a very rich culture and tradition. There are some of these cultures that are famous not only in Pampanga but in the whole country</p>
-                <a href="https://kapampangan.org/is-there-kapampangan-art/" class="btn btn-primary">View article</a>
+                    <h5 class="card-title">Kapampangan Art</h5>
+                    <p class="card-text">There is no doubt that Pampanga has a very rich culture and tradition. There are some of these cultures that are famous not only in Pampanga but in the whole country</p>
+                    <div class="card-footer">
+                        <a href="https://kapampangan.org/is-there-kapampangan-art/" class="btn btn-primary">View article</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -58,22 +62,38 @@ allowfullscreen>
                 <div class="card-body">
                     <h5 class="card-title">Stakeholders urge reopening of Puning Hot Sprin</h5>
                     <p class="card-text">CITY OF SAN FERNANDO Tourism stakeholders are calling for the reopening of the Puning Hot Spring located in between Angeles City and Porac town.</p>
-                    <a href="https://www.sunstar.com.ph/article/1944890/pampanga/local-news/stakeholders-urge-reopening-of-puning-hot-spring" class="btn btn-primary">View Article</a>
+                    <div class="card-footer">
+                        <a href="https://www.sunstar.com.ph/article/1944890/pampanga/local-news/stakeholders-urge-reopening-of-puning-hot-spring" class="btn btn-primary">View Article</a>
+                    </div>          
                 </div>
             </div>
         </div>
         <div class="col">
             <div class="card" style="width: 18rem;">
-                <img src="https://sansimonpampanga.gov.ph/gwt/images/logo/2019/LGU%20Logo.png" class="card-img-top" alt="...">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6V3TVmrwEZFTl16YCGky_yVJh7Y6FQXWClw&usqp=CAU" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">San Simon village wins Best Gulayan Sa Barangay</h5>
-                    <p class="card-text">SAN SIMON Barangay Santa Monica of this town was named champion in the provincial level Search for Best Gulayan sa Barangay (GSB) in Pampanga.</p>
-                    <a href="https://www.sunstar.com.ph/article/1944540/pampanga/local-news/san-simon-village-wins-best-gulayan-sa-barangay" class="btn btn-primary">View Article</a>
+                    <p class="card-text">SAN SIMON Barangay Santa Monica of this town was named champion in Search for Best Gulayan sa Barangay in Pampanga.</p>
+                    <div class="card-footer">
+                        <a href="https://www.sunstar.com.ph/article/1944540/pampanga/local-news/san-simon-village-wins-best-gulayan-sa-barangay" class="btn btn-primary">View Article</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8ILksrzAf9dAmmTf3YffN1hb_aned-Mr20w&usqp=CAU" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Agencies urged: Take measures to prevent landslides at Mount Arayat</h5>
+                    <p class="card-text">Gonzales over the weekend met with officials of the two agencies in preparation for the onslaught of tropical storm "Paeng" and tropical depression “Queenie”.</p>
+                    <div class="card-footer">
+                        <a href="https://www.sunstar.com.ph/article/1944981/pampanga/local-news/agencies-urged-take-measures-to-prevent-landslides-at-mount-arayat" class="btn btn-primary">View Article</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>    
+</div>   
 </body>
 </html>
 
