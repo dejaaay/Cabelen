@@ -1,0 +1,44 @@
+
+/* News letter */
+input[type=text]  {
+	width: 35%;
+	padding: 8px;
+	margin: 1px 0;
+	margin-bottom: 0px;
+	/*display: inline-block;*/
+    position: absolute;
+    left: 480px;
+    top: 3164px;
+} 
+input[type=submit]{
+    width: 35%;
+	padding: 8px;
+	margin: 1px 0;
+	margin-bottom: 0px;
+	/*display: inline-block;*/
+    position: absolute;
+    left: 480px;
+    top: 3214px;
+}
+  
+input[type=submit] {
+	margin-top: 5px;
+	background-color: #208c78;
+	color: white;
+	border: none;
+}
+  
+input[type=submit]:hover {
+	opacity: 0.8;
+}
+
+.newsletter{
+    position: absolute;
+    left: 480px;
+    top: 3104px;
+}
+.img{
+    position: absolute;
+    left: 175px;
+    top: 2914px;
+}
