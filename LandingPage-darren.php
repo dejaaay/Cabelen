@@ -9,13 +9,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href = "darren-cssFile.css"></link>
+        <link rel="stylesheet" href = "design.css"></link>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
     <body>
+        <!--NavBar-->
         <nav class="navbar navbar-custom"><!--this is the navbar-->
           <a class="navbar-brand" href="#"><!--Change na lang sa final php file this is for home-->
-            <img src="https://raw.githubusercontent.com/dejaaay/Cabelen/main/assets/img/cabalen2.jpg" width="50" height="30" class="d-inline-block align-top" alt="">  Cabalen</a>
+            <img src="https://raw.githubusercontent.com/dejaaay/Cabelen/main/assets/img/cabalen2.jpg" width="50" height="30" class="d-inline-block align-top" alt="">  Cabelen</a>
           <ul>
           <li class="nav-item">
             <a class="nav-link" href="#">Blogs</a> <!--just change "#" with the php file for blog later-->
@@ -25,8 +26,32 @@
           </li>
           </ul>
         </nav>
+
+
+
+        <!--Greetings-->
+            <div id="greetings">
+                <div>
+                    <h1 id="greeting-text">GREETINGS</h1>
+                </div>
+            </div>
+    
+
+
         <!--Current News and Updates-->
         <h2 id="padding">Current News and updates</h2>
+        <div class="container">
+            <div class="row align-content-start">
+                <div class="col">
+                    <img src="https://raw.githubusercontent.com/dejaaay/Cabelen/main/assets/img/cabalen2.jpg">
+                </div>
+                <div class="col">
+                    <img src="https://raw.githubusercontent.com/dejaaay/Cabelen/main/assets/img/cabalen2.jpg">
+                </div>            
+            </div>
+            
+
+        </div>
 
         <!--Videos eme daw-->
         <div class="p-5" id="video-eme">
@@ -95,12 +120,13 @@
 
         <div id="Footer">
             <div id="newsletter"><!--Newsletter-->
-                <h1>Newsletter</h1>
+                <h1 id="newsletter-text">Newsletter</h1>
+                <p id="padding-right">test test test test</p>
             </div>
             
             <div id="about_us"><!--About us sa pinakababa-->
                 
-                <div class="aboutInfo">
+                <div class="aboutInfo" id="padding-left">
                     <h1>About Us</h1>
                     <p>In Tagalog, the Kapampangan term<br>"Cabalen" translates to "Kabayan." We<br>understand your time is valuable and only<br>want the best and finest<br><br> Our goal is to give you access to a<br>Pampanga website that provides the best<br>travel spots, services, food, culture,<br>and information at your fingertips to help you<br>make the most of your vacation!</p>
                 </div>
@@ -110,9 +136,9 @@
                     <br><a href="#" id="FAQ">test link 3</a>
                     <br><a href="#" id="FAQ">test link 4</a>
                 </div>
-                <div class ="aboutInfo"><!--contact us--><!--Lalagyan mo na lang mamaya ng pics-->
+                <div class ="aboutInfo" id="padding-right"><!--contact us--><!--Lalagyan mo na lang mamaya ng pics-->
                     <h1>Contact Us</h1>
-                    <p>test</p>
+                    <img src="#">
                 </div>
             </div>
         </div>
