@@ -26,7 +26,14 @@ ul{
     list-style-type: none;
     display: flex;
 }
-
+#greetings{
+    background-color: #546B60;
+    padding: 200px;
+}
+#greeting-text{
+    color:white;
+    text-align: center;
+}
 #About{
     text-align: left;
 }
@@ -42,6 +49,8 @@ ul{
 #newsletter{
     background-color: #D9D9D9;
     padding: 15px;
+    display: flex;
+    justify-content: space-between;
 }
 #about_us{
     margin-top: 25px;
@@ -60,5 +69,13 @@ ul{
     display: flex;
     justify-content: center;
 }
-
+#padding-right{
+    padding-right: 50px;
+}
+#padding-left{
+    padding-left: 50px;
+}
+#newsletter-text{
+    padding-left:50px
+}
 
