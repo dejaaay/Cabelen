@@ -27,6 +27,18 @@
         </nav>
         <!--Current News and Updates-->
         <h2 id="padding">Current News and updates</h2>
+        <div class="container">
+            <div class="row align-content-start">
+                <div class="col-6">
+                    <img src="https://raw.githubusercontent.com/dejaaay/Cabelen/main/assets/img/cabalen2.jpg">
+                </div>
+                <div class="col-6">
+                    <img src="https://raw.githubusercontent.com/dejaaay/Cabelen/main/assets/img/cabalen2.jpg">
+                </div>
+                <div class="col-6">
+                    <img src="https://raw.githubusercontent.com/dejaaay/Cabelen/main/assets/img/cabalen2.jpg">
+                </div>               
+            </div>
             
 
         <!--Videos eme daw-->
