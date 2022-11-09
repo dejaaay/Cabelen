@@ -18,7 +18,7 @@ input[type=submit]{
 	/*display: inline-block;*/
     position: absolute;
     left: 480px;
-    top: 3214px;
+    top: 3204px;
 }
   
 input[type=submit] {
@@ -41,4 +41,8 @@ input[type=submit]:hover {
     position: absolute;
     left: 175px;
     top: 2914px;
+}
+.thumbnail:hover{
+	opacity: 0.3;
+      filter: alpha(opacity=30);
 }

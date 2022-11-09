@@ -304,8 +304,8 @@
   	 		<div class="footer-col">
   	 			<h4>follow us</h4>
   	 			<div class="social-links">
-  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
-  	 				<a href="#"><i class="fab fa-twitter"></i></a>
+  	 				<a href="https://www.facebook.com/profile.php?id=100087116093597"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="https://twitter.com/CabalenEP"><i class="fab fa-twitter"></i></a>
   	 				<a href="#"><i class="fab fa-instagram"></i></a>
   	 			</div>
           <br>

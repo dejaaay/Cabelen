@@ -29,6 +29,10 @@ body{
 	display: flex;
 	flex-wrap: wrap;
 }
+.thumbnail:hover{
+	opacity: 0.3;
+      filter: alpha(opacity=30);
+}
 
 .footer{
 	background-color: #253532;
