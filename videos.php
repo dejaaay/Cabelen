@@ -13,12 +13,31 @@
     <title>Document</title>
 </head>
 <body>
+    <!--NavbarCode-->
+    <nav class="navbar navbar-custom"><!--this is the navbar-->
+      <a class="navbar-brand" href="#"> <!--change na lang po sa homepage-->
+           <!--Pachange na lang neto sa filename nung pic-->        
+          <img src="#" width="50" height="30" class="d-inline-block align-top" alt="">  Cabalen</a>
+      <ul>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Blogs</a> <!--just change "#" with the php file for blog later-->
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Places</a> <!--just change "#" with the php file for places later-->
+      </li>
+      </ul>
+    </nav>
     <!-- Content Section 1 -->
+
     <section id="scroll">
             <div class="red-bg vidspacing container px-5">
+
+    <section id="scroll" class ="test">
+            <div class="container px-5">
+
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><iframe width="560" height="315" src="https://www.youtube.com/embed/howgEFee5MU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                        <div class="p-5"><iframe width="500" height="315" src="https://www.youtube.com/embed/howgEFee5MU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                     </div>
                     <div class="col-lg-6 order-lg-1">
                         <div class="p-5">
@@ -33,7 +52,7 @@
             <div class="red-bg vidspacing container px-5">
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-6">
-                        <div class="p-5"><iframe width="560" height="315" src="https://www.youtube.com/embed/mcxMnVD26FU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                        <div class="p-5"><iframe width="500" height="315" src="https://www.youtube.com/embed/mcxMnVD26FU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                     </div>
                     <div class="col-lg-6">
                         <div class="p-5">
@@ -45,10 +64,14 @@
         </section>
         <!-- Content Section 3 -->
         <section>
+
             <div class="red-bg vidspacing container px-5">
+
+            <div class="container px-5" class="test">
+
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><iframe width="560" height="315" src="https://www.youtube.com/embed/C8q1F1KHgXE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                        <div class="p-5"><iframe width="500" height="315" src="https://www.youtube.com/embed/C8q1F1KHgXE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                     </div>
                     <div class="col-lg-6 order-lg-1">
                         <div class="p-5">
@@ -63,7 +86,7 @@
             <div class="red-bg vidspacing container px-5">
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-6">
-                        <div class="p-5"><iframe width="560" height="315" src="https://www.youtube.com/embed/I2zykJTKel4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                        <div class="p-5"><iframe width="500" height="315" src="https://www.youtube.com/embed/I2zykJTKel4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                     </div>
                     <div class="col-lg-6">
                         <div class="p-5">

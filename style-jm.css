@@ -9,6 +9,7 @@
 
 }
 
+
 .red-bg {
   background-color:#B95656
 }
@@ -17,3 +18,12 @@
   margin-top: 25px;
   margin-bottom: 25px;
 }
+.navbar-custom {
+    background-color: rgb(39, 57, 54);
+}
+
+
+.test{
+    background-color = #546B60;
+}
+
