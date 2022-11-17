@@ -19,7 +19,7 @@
         <!--Current News and Updates//// Instead of current news and updates, we use video (greetings in figma)--> 
     <iframe 
         class= "center"
-        width=90% 
+        width=100% 
         height="900" 
         src="https://www.youtube.com/embed/-3k-SC22zbA?autoplay=1" 
         title="YouTube video player" 
@@ -32,7 +32,7 @@
     <!--Video for about -->
     <iframe 
         class= "center"
-        width=90% 
+        width=100% 
         height="900" 
         src="https://www.youtube.com/embed/tuO6oCxZU-s" 
         title="YouTube video player" 
