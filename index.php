@@ -106,7 +106,7 @@
         </div>
         <div class="col">
             <div class="card" style="width: 18rem;">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8ILksrzAf9dAmmTf3YffN1hb_aned-Mr20w&usqp=CAU" class="card-img-top" alt="...">
+                <img src="https://sa.kapamilya.com/absnews/abscbnnews/media/2019/news/06/07/20190607-bundok-l.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Agencies urged: Take measures to prevent landslides at Mount Arayat</h5>
                     <p class="card-text">Gonzales over the weekend met with officials of the two agencies in preparation for the onslaught of tropical storm "Paeng" and tropical depression “Queenie”.</p>
