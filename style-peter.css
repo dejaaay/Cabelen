@@ -30,7 +30,7 @@ iframe.center {
 /* Remove extra left and right margins, due to padding */
 .row {margin: 0 -5px;}
 
-/* Clear floats after the columns */
+/* Clear floats after the columns 
 .row:after {
   content: "";
   display: table;
@@ -44,7 +44,7 @@ iframe.center {
   background-color: #f1f1f1;
   height: 500px;
 
-}
+}*/
 
 /*.card-img-top {
   width: 20%;
