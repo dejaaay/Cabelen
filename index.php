@@ -105,7 +105,7 @@
             </div>
         </div>
         <div class="col">
-            <div class="card hover-zoom" style="width: 18rem;">
+            <div class="card" style="width: 18rem;">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8ILksrzAf9dAmmTf3YffN1hb_aned-Mr20w&usqp=CAU" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Agencies urged: Take measures to prevent landslides at Mount Arayat</h5>
