@@ -15,8 +15,10 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
     <body>
-        <!--removed navbar -->
-        <!--Current News and Updates//// Instead of current news and updates, we use video (greetings in figma)--> 
+        <!--navbar here -->
+        <!-- Greetings na naka carousell part -->
+        <!-- Current news and updates -->
+        <!--Video part--> 
     <iframe 
         class= "center"
         width=100% 
@@ -28,23 +30,6 @@
         allowfullscreen>
     </iframe>
     <br><br><br>
-    <!--space here for Current news and updates grid-->
-    <!--Video for about -->
-    <iframe 
-        class= "center"
-        width=100% 
-        height="900" 
-        src="https://www.youtube.com/embed/tuO6oCxZU-s" 
-        title="YouTube video player" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen>
-    </iframe>
-        <!--Videos eme daw
-        <div class="p-5" id="video-eme">
-            <iframe width="1000" height="630" src="https://www.youtube.com/embed/mcxMnVD26FU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>-->
-
         <!-- about the page -->
         <!-- Content Section 1 -->
     <section id="scroll">
@@ -133,30 +118,6 @@
         </div>
     </div>
 </div>   
-            
-        <!-- <div id="Footer"
-            <div id="newsletter"><!--Newsletter
-                <h1>Newsletter</h1>
-            </div>
-            
-            <div id="about_us"><!--About us sa pinakababa
-                
-                <div class="aboutInfo">
-                    <h1>About Us</h1>
-                    <p>In Tagalog, the Kapampangan term<br>"Cabalen" translates to "Kabayan." We<br>understand your time is valuable and only<br>want the best and finest<br><br> Our goal is to give you access to a<br>Pampanga website that provides the best<br>travel spots, services, food, culture,<br>and information at your fingertips to help you<br>make the most of your vacation!</p>
-                </div>
-                <div class ="aboutInfo"><!--Links??????
-                    <a href="#" id="FAQ">FAQS</a><br><br>
-                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" id="FAQ" target="_blank">Testing</a>
-                    <br><a href="#" id="FAQ">test link 3</a>
-                    <br><a href="#" id="FAQ">test link 4</a>
-                </div>
-                <div class ="aboutInfo"><!--contact us--><!--Lalagyan mo na lang mamaya ng pics
-                    <h1>Contact Us</h1>
-                    <p>test</p>
-                </div>
-            </div>
-        </div>-->
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
