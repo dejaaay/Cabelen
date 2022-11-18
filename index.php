@@ -69,7 +69,7 @@
 <div class= "container">
     <div class= "row">
         <div class= "col">
-            <div class="card" style="width: 18rem;">
+            <div class="card ratio ratio-1x1" style="width: 18rem;">
                <img src="https://www.karlaroundtheworld.com/wp-content/uploads/2019/12/Pampanga-141-of-177-scaled.jpg" class="card-img-top" alt="pampanga art">      
                <div class="card-body">
                     <h5 class="card-title">Kapampangan Art</h5>
@@ -81,7 +81,7 @@
             </div>
         </div>
         <div class="col">      
-            <div class="card" style="width: 18rem;">
+            <div class="card ratio ratio-1x1" style="width: 18rem;">
                 <img src="https://thehappytrip.com/wp-content/uploads/2019/08/IMG_20190812_095842.jpg" class="card-img-top" alt="Puning Hot Spring">
                 <div class="card-body">
                     <h5 class="card-title">Stakeholders urge reopening of Puning Hot Sprin</h5>
