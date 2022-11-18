@@ -10,8 +10,8 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
-    
-    <link href="gallery-lance.css" rel="stylesheet">
+    <link href="Food_blogs.php" rel="stylesheet">
+    <link href="gallery.css" rel="stylesheet">
     <link href="gallery_newsletter.css" rel="stylesheet">
     <title>Blog Gallery</title>
 </head>
@@ -111,28 +111,28 @@
 <div class="row">
   <div class="col-md-3 pt-2 pb-3">
     <div class="thumbnail">
-      <a href="img/CandabaSwamp.png">
+      <a href="Food_blogs.php#Betute">
         <img src="img/Betute2.png" alt="Betute" style="width:100%">
       </a>
     </div>
   </div>
   <div class="col-md-3 pt-2 pb-3">
     <div class="thumbnail">
-      <a href="img/Mt.Arayat.png">
+      <a href="Food_blogs.php#Bringhe">
         <img src="img/Bringhe2.png" alt="Bringhe" style="width:100%">
       </a>
     </div>
   </div>
   <div class="col-md-3 pt-2 pb-3">
     <div class="thumbnail">
-      <a href="img/Pinatubo.png">
+      <a href="Food_blogs.php#Murcon">
         <img src="img/Murcon2.png" alt="Murcon" style="width:100%">
       </a>
     </div>
   </div>
   <div class="col-md-3 pt-2 pb-3">
     <div class="thumbnail">
-      <a href="img/Pinatubo.png">
+      <a href="Food_blogs.php#PakoSalad">
         <img src="img/PakoSalad.png" alt="Pako Salad" style="width:100%">
       </a>
     </div>
@@ -144,28 +144,28 @@
 <div class="row">
   <div class="col-md-3 pt-2 pb-3">
     <div class="thumbnail">
-      <a href="img/CandabaSwamp.png">
+      <a href="Food_blogs.php#Sisig">
         <img src="img/Sisig.png" alt="Sisig" style="width:100%">
       </a>
     </div>
   </div>
   <div class="col-md-3 pt-2 pb-3">
     <div class="thumbnail">
-      <a href="img/Mt.Arayat.png">
+      <a href="Food_blogs.php#SanNicolasCookies">
         <img src="img/SanNicolasCookies.png" alt="San Nicolas Cookies" style="width:100%">
       </a>
     </div>
   </div>
   <div class="col-md-3 pt-2 pb-3">
     <div class="thumbnail">
-      <a href="img/Pinatubo.png">
+      <a href="Food_blogs.php#TibukTibuk">
         <img src="img/TibukTibok.png" alt="Tibuk-Tibok" style="width:100%">
       </a>
     </div>
   </div>
   <div class="col-md-3 pt-2 pb-3">
     <div class="thumbnail">
-      <a href="img/Pinatubo.png">
+      <a href="Food_blogs.php#TokwatBaboy">
         <img src="img/Tokwa_tBaboy.png" alt="Tokwa't Baboy" style="width:100%">
       </a>
     </div>
