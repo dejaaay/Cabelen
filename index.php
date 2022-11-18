@@ -80,43 +80,59 @@
         </section>
         
         <!--News And Blogs-->
-        <div id="padding">
-        <h2 id="NewsAndBlogs">News and blogs</h2>
-        </div>
-        <div class= "container">
-            <div class= "row">
-                <div class= "col">
-                    <div class="card" style="width: 18rem;">
-                    <img src="https://www.karlaroundtheworld.com/wp-content/uploads/2019/12/Pampanga-141-of-177-scaled.jpg" class="card-img-top" alt="pampanga art" width="150" height="150">
-                        <div class="card-body">
-                            <h5 class="card-title">Kapampangan Art</h5>
-                            <p class="card-text">There is no doubt that Pampanga has a very rich culture and tradition. There are some of these cultures that are famous not only in Pampanga but in the whole country</p>
-                            <a href="https://kapampangan.org/is-there-kapampangan-art/" class="btn btn-info">View article</a>
-                        </div>
+        <h1> News and blogs</h1>
+<div class= "container">
+    <div class= "row">
+        <div class= "col">
+            <div class="card" style="width: 18rem;">
+               <img src="https://www.karlaroundtheworld.com/wp-content/uploads/2019/12/Pampanga-141-of-177-scaled.jpg" class="card-img-top" alt="pampanga art">      
+               <div class="card-body">
+                    <h5 class="card-title">Kapampangan Art</h5>
+                    <p class="card-text">There is no doubt that Pampanga has a very rich culture and tradition. There are some of these cultures that are famous not only in Pampanga but in the whole country</p>
+                    <div class="card-footer">
+                        <a href="https://kapampangan.org/is-there-kapampangan-art/" class="btn btn-primary">View article</a>
                     </div>
                 </div>
+            </div>
+        </div>
         <div class="col">      
             <div class="card" style="width: 18rem;">
-                <img src="https://thehappytrip.com/wp-content/uploads/2019/08/IMG_20190812_095842.jpg" class="card-img-top" alt="Puning Hot Spring"width="150" height="150">
+                <img src="https://thehappytrip.com/wp-content/uploads/2019/08/IMG_20190812_095842.jpg" class="card-img-top" alt="Puning Hot Spring">
                 <div class="card-body">
                     <h5 class="card-title">Stakeholders urge reopening of Puning Hot Sprin</h5>
                     <p class="card-text">CITY OF SAN FERNANDO Tourism stakeholders are calling for the reopening of the Puning Hot Spring located in between Angeles City and Porac town.</p>
-                    <a href="https://www.sunstar.com.ph/article/1944890/pampanga/local-news/stakeholders-urge-reopening-of-puning-hot-spring" class="btn btn-info">View Article</a>
+                    <div class="card-footer">
+                        <a href="https://www.sunstar.com.ph/article/1944890/pampanga/local-news/stakeholders-urge-reopening-of-puning-hot-spring" class="btn btn-primary">View Article</a>
+                    </div>          
                 </div>
             </div>
         </div>
         <div class="col">
             <div class="card" style="width: 18rem;">
-                <img src="https://sansimonpampanga.gov.ph/gwt/images/logo/2019/LGU%20Logo.png" class="card-img-top" alt="San Simon Pampanga Municipal Logo"width="150" height="150">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6V3TVmrwEZFTl16YCGky_yVJh7Y6FQXWClw&usqp=CAU" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">San Simon village wins Best Gulayan Sa Barangay</h5>
-                    <p class="card-text">SAN SIMON Barangay Santa Monica of this town was named champion in the provincial level Search for Best Gulayan sa Barangay (GSB) in Pampanga.</p>
-                    <a href="https://www.sunstar.com.ph/article/1944540/pampanga/local-news/san-simon-village-wins-best-gulayan-sa-barangay" class="btn btn-info">View Article</a>
+                    <p class="card-text">SAN SIMON Barangay Santa Monica of this town was named champion in Search for Best Gulayan sa Barangay in Pampanga.</p>
+                    <div class="card-footer">
+                        <a href="https://www.sunstar.com.ph/article/1944540/pampanga/local-news/san-simon-village-wins-best-gulayan-sa-barangay" class="btn btn-primary">View Article</a>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8ILksrzAf9dAmmTf3YffN1hb_aned-Mr20w&usqp=CAU" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Agencies urged: Take measures to prevent landslides at Mount Arayat</h5>
+                    <p class="card-text">Gonzales over the weekend met with officials of the two agencies in preparation for the onslaught of tropical storm "Paeng" and tropical depression “Queenie”.</p>
+                    <div class="card-footer">
+                        <a href="https://www.sunstar.com.ph/article/1944981/pampanga/local-news/agencies-urged-take-measures-to-prevent-landslides-at-mount-arayat" class="btn btn-primary">View Article</a>
+                    </div>
+                </div>
             </div>
         </div>
+    </div>
+</div>   
             
         <!-- <div id="Footer"
             <div id="newsletter"><!--Newsletter
