@@ -32,8 +32,6 @@
     <section id="scroll">
             <div class="red-bg vidspacing container px-5">
 
-    <section id="scroll" class ="test">
-            <div class="container px-5">
 
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-6 order-lg-2">
