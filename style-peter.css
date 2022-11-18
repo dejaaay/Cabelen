@@ -37,13 +37,13 @@ iframe.center {
   clear: both;
 }
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
+/*.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
+  /*padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
   height: 500px;
-}
+}*/
 
 .card-img-top {
   width: 100%;
@@ -51,7 +51,20 @@ iframe.center {
   object-fit: cover;
 }
 
-.card:hover {
-  transform:scale(1.1);
+.card{
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+  transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
+  text-align: center;
+  background-color: #f1f1f1;
+  height: 500px;
+}
+
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
