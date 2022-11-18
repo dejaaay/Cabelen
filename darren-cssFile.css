@@ -60,5 +60,6 @@ ul{
     display: flex;
     justify-content: center;
 }
-
-
+.navbar{
+    background-color: #253532;
+}
