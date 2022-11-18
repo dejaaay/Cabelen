@@ -1,4 +1,3 @@
-<?php session_start();?>
 <!doctype html>
 <html lang="en">
     <head>
@@ -9,14 +8,59 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href = "darren-cssFile.css"/>
+        <link rel="stylesheet" href = "darren-cssfile.css"/>
         <link href="style-peter.css" rel="stylesheet" />
         <link href="style-jm.css" rel="stylesheet" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
     <body>
         <!--navbar here -->
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                  <img src="https://raw.githubusercontent.com/dejaaay/Cabelen/main/assets/img/cabalen2.jpg" alt="Cabalen Logo" width="120" height="72">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Places</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Videos</a>
+                  </li>    
+                </ul>
+              </div>
+            </div>
+          </nav>
         <!-- Greetings na naka carousell part -->
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="https://raw.githubusercontent.com/dejaaay/Cabelen/main/assets/img/LigliganParul01.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item ">
+                    <img class="d-block w-100" src="https://raw.githubusercontent.com/dejaaay/Cabelen/main/assets/img/HotAirBalloonClark01.jpg" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 id="carousel-text">test</h1>
+                    </div>
+                </div>
+            </div>
+        
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        </div>
         <!-- Current news and updates -->
         <!--Video part--> 
     <iframe 
