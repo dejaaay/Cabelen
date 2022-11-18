@@ -20,7 +20,7 @@ iframe.center {
   margin-right: auto;
 }
 
-* Float four columns side by side */
+/* Float four columns side by side */
 .column {
   float: left;
   width: 25%;
