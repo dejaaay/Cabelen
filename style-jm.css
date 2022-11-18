@@ -11,7 +11,11 @@
 
 
 .red-bg {
-  background-color:#B95656
+  background-color:#628071
+}
+
+.white-bg {
+  background-color: white
 }
 
 .vidspacing {
@@ -24,6 +28,6 @@
 
 
 .test{
-    background-color = #546B60;
+    background-color: #546B60;
 }
 
