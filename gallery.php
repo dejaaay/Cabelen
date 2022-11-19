@@ -15,7 +15,7 @@
     <link href="Food_blogs.php" rel="stylesheet">
     
     <link href="gallery.css" rel="stylesheet">
-    <link href="gallery_newsletter.css" rel="stylesheet">
+    <link href="css/gallery_newsletter.css" rel="stylesheet">
     <title>Blog Gallery</title>
 </head>
 <body>
@@ -206,7 +206,7 @@
 <div class="row">
   <div class="col-md-3 pt-2 pb-3">
     <div class="thumbnail">
-      <a href="img/CandabaSwamp.png">
+      <a href="CultArts_blogs.php#KuranAmpongPasu">
         <img src="img/KuranAmpongPasu.png" alt="Kuran Ampong Pasu" style="width:100%">
       </a>
       <div class="middle">
@@ -216,7 +216,7 @@
   </div>
   <div class="col-md-3 pt-2 pb-3">
     <div class="thumbnail">
-      <a href="img/Mt.Arayat.png">
+      <a href="CultArts_blogs.php#Pukpuk">
         <img src="img/Pukpuk.png" alt="Pukpuk" style="width:100%">
       </a>
       <div class="middle">
@@ -226,7 +226,7 @@
   </div>
   <div class="col-md-3 pt-2 pb-3">
     <div class="thumbnail">
-      <a href="img/parul.png">
+      <a href="CultArts_blogs.php#ParulMaking">
         <img src="img/parul.png" alt="Parul" style="width:100%">
       </a>
       <div class="middle">
@@ -236,7 +236,7 @@
   </div>
   <div class="col-md-3 pt-2 pb-3">
     <div class="thumbnail">
-      <a href="img/Pinatubo.png">
+      <a href="CultArts_blogs.php#GawangPande">
         <img src="img/GawangPande2.png" alt="Gawang Pande" style="width:100%">
       </a>
       <div class="middle">
@@ -251,7 +251,7 @@
 <div class="row">
   <div class="col-md-3 pt-2 pb-3">
     <div class="thumbnail">
-      <a href="img/CandabaSwamp.png">
+      <a href="CultArts_blogs.php#Burarul">
         <img src="img/Burarul.png" alt="Burarul" style="width:100%">
       </a>
       <div class="middle">
@@ -261,7 +261,7 @@
   </div>
   <div class="col-md-3 pt-2 pb-3">
     <div class="thumbnail">
-      <a href="img/Mt.Arayat.png">
+      <a href="CultArts_blogs.php#Dase">
         <img src="img/Dase.png" alt="Dase" style="width:100%">
       </a>
       <div class="middle">
@@ -271,7 +271,7 @@
   </div>
   <div class="col-md-3 pt-2 pb-3">
     <div class="thumbnail">
-      <a href="img/Pinatubo.png">
+      <a href="CultArts_blogs.php#Kupia">
         <img src="img/Kupia.png" alt="Kupia" style="width:100%">
       </a>
       <div class="middle">
@@ -281,7 +281,7 @@
   </div>
   <div class="col-md-3 pt-2 pb-3">
     <div class="thumbnail">
-      <a href="img/Mt.Arayat.png">
+      <a href="CultArts_blogs.php#GiantLanternFestival">
         <img src="img/GiantLantern.png" alt="Giant Lantern Festival" style="width:100%">
       </a>
       <div class="middle">
@@ -296,7 +296,7 @@
 <div class="row">
   <div class="col-md-3 pt-2 pb-3">
     <div class="thumbnail">
-      <a href="img/CandabaSwamp.png">
+      <a href="CultArts_blogs.php#Dukit">
         <img src="img/Dukit.png" alt="Dukit" style="width:100%">
       </a>
       <div class="middle">
@@ -306,7 +306,7 @@
   </div>
   <div class="col-md-3 pt-2 pb-3">
     <div class="thumbnail">
-      <a href="img/Mt.Arayat.png">
+      <a href="CultArts_blogs.php#Santos">
         <img src="img/Santos.png" alt="Santos" style="width:100%">
       </a>
       <div class="middle">
@@ -316,7 +316,7 @@
   </div>
   <div class="col-md-3 pt-2 pb-3">
     <div class="thumbnail">
-      <a href="img/Pinatubo.png">
+      <a href="CultArts_blogs.php#Gitara">
         <img src="img/Gitara.png" alt="Gitara" style="width:100%">
       </a>
       <div class="middle">
@@ -326,7 +326,7 @@
   </div>
   <div class="col-md-3 pt-2 pb-3">
     <div class="thumbnail">
-      <a href="img/Pinatubo.png">
+      <a href="CultArts_blogs.php#TugakFestival">
         <img src="img/FiestangTugak.png" alt="Fiestang Tugak" style="width:100%">
       </a>
       <div class="middle">

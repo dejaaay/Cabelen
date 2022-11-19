@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-sm navbar-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand logo" href="index.php" id="logo">
         <img src="img/CabalenLight.png" alt="Cabalen Logo" width="120" height="72">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -12,15 +12,11 @@
           <a class="nav-link" href="index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Food_blogs.php">Blogs</a>
+          <a class="nav-link" href="gallery.php">Blogs</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="CultArts_blogs.php"> </a>
+          <a class="nav-link" href="CultArts_blogs.php">Events</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="TouristDest_blogs.php"> </a>
-        </li>
-
         <li class="nav-item">
           <a class="nav-link" href="videos.php">Videos</a>
         </li>
