@@ -7,8 +7,8 @@ input[type=text]  {
 	margin-bottom: 0px;
 	/*display: inline-block;*/
 	position: absolute;
-    left: 465px;
-    top: 3214px;
+    left: 470px;
+    top: 6124px;
     
 } 
 input[type=submit]{
@@ -18,8 +18,8 @@ input[type=submit]{
 	margin-bottom: 0px;
 	/*display: inline-block;*/
     position: absolute;
-    left: 465px;
-    top: 3264px;
+    left: 470px;
+    top: 6164px;
 }
   
 input[type=submit] {
@@ -35,12 +35,12 @@ input[type=submit]:hover {
 
 .newsletter{
     position: absolute;
-    left: 465px;
-    top: 3154px;
+    left: 470px;
+    top: 5934px;
 
 }
 .img{
     position: absolute;
     left: 35px;
-    top: 2944px;
+    top: 5894px;
 }

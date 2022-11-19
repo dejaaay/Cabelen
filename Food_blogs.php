@@ -11,7 +11,7 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <link href="blogs.css" rel="stylesheet">
-    <link href="gallery_newsletter.css" rel="stylesheet">
+    <link href="food_newsletter.css" rel="stylesheet">
     <link href="gallery.css" rel="stylesheet">
     <title>Food Blogpage</title>
 </head>
@@ -28,7 +28,7 @@
             <div class="container p-2">
         </div>
 
-        <p style= "font-family: Verdana, Geneva, Tahoma, sans-serif;" text-align: center font-size:60%;>
+        <p class="desc" style= "font-family: Verdana, Geneva, Tahoma, sans-serif;" text-align: center font-size:60%;>
         Pampanga is proudly the Culinary Capital of the Philippines where great and 
         astonishing cooks and scrumptious foods are found. In Pampanga, you will savor a wide variety 
         of dishes from their famous Sisig to their Paella. Exotic dishes will surely tickle your tastebuds from Betute, 
@@ -50,7 +50,7 @@
             <div class="container p-2">
         </div>
 
-        <p style= "font-family: Verdana, Geneva, Tahoma, sans-serif;" text-align: center font-size:60%;>
+        <p class="desc" style= "font-family: Verdana, Geneva, Tahoma, sans-serif;" text-align: center font-size:60%;>
         Do you want to try a stuffed frog? Known as the Betute Tagak these frogs are farm-raised so they are safe to eat and stuffed with ground beef, a must to try in Apag Marangle.
         </p>
         </div>
@@ -68,7 +68,7 @@
             <div class="container p-2">
         </div>
 
-        <p style= "font-family: Verdana, Geneva, Tahoma, sans-serif;" text-align: center font-size:60%;>
+        <p class="desc" style= "font-family: Verdana, Geneva, Tahoma, sans-serif;" text-align: center font-size:60%;>
         Bringhe is like a paella with a Kapampangan twist, down at Downtown Café 1956 they can serve you this specialty which is cooked with Luyang dilaw and gata topped with carrots, bell peppers and boiled eggs.
 
         </p>
@@ -87,7 +87,7 @@
             <div class="container p-2">
         </div>
 
-        <p style= "font-family: Verdana, Geneva, Tahoma, sans-serif;" text-align: center font-size:60%;>
+        <p class="desc" style= "font-family: Verdana, Geneva, Tahoma, sans-serif;" text-align: center font-size:60%;>
         Murcon is a Kapampangan specialty that consists of ground pork & beef, hard-boiled eggs, pickles and hotdog/chorizo slices, it's mostly served at parties but why not try it for lunch at Everybody’s Café.
         </p>
         </div>
@@ -105,7 +105,7 @@
             <div class="container p-2">
         </div>
 
-        <p style= "font-family: Verdana, Geneva, Tahoma, sans-serif;" text-align: center font-size:60%;>
+        <p class="desc" style= "font-family: Verdana, Geneva, Tahoma, sans-serif;" text-align: center font-size:60%;>
         Pako salad, a specialty in Abe’s Farm, gives you a fresh taste and scenery. There are plentiful of pako in Pampanga. The salad consists of paco fern, raw onion, tomato strips and salted eggs.
 
         </p>
@@ -124,7 +124,7 @@
             <div class="container p-2">
         </div>
 
-        <p style= "font-family: Verdana, Geneva, Tahoma, sans-serif;" text-align: center font-size:60%;>
+        <p class="desc" style= "font-family: Verdana, Geneva, Tahoma, sans-serif;" text-align: center font-size:60%;>
         Did you know the Kapampangan cuisine introduced sisig to the country and was later on re-invented by the known restaurant owner Aling Lucing and Sisig is mostly made out of pig head and it has been boiled, grilled and fried before being put on a sizzling plate Aling Lucing Sisig is where you should go if you ought to try the origin of the sisig.
 
         </p>
@@ -143,7 +143,7 @@
             <div class="container p-2">
         </div>
 
-        <p style= "font-family: Verdana, Geneva, Tahoma, sans-serif;" text-align: center font-size:60%;>
+        <p class="desc" style= "font-family: Verdana, Geneva, Tahoma, sans-serif;" text-align: center font-size:60%;>
         Now for some pasalubong San Nicolas Cookies is the one to take home for. Its specialness came  from its intricate embroidered like design. So don’t forget to bring some pasalubong to your loved ones and let them experience some kapampangan.
         </p>
         </div>
@@ -161,7 +161,7 @@
             <div class="container p-2">
         </div>
 
-        <p style= "font-family: Verdana, Geneva, Tahoma, sans-serif;" text-align: center font-size:60%;>
+        <p class="desc" style= "font-family: Verdana, Geneva, Tahoma, sans-serif;" text-align: center font-size:60%;>
         How about a dessert? Tibuk-Tibuk it is a Kapampangan’s version of a maja blanca.The main ingredient is carabao milk in which Susie’s Cuisine is where to go to try this.
 
         </p>
@@ -181,7 +181,7 @@
             <div class="container p-2">
         </div>
 
-        <p style= "font-family: Verdana, Geneva, Tahoma, sans-serif;" text-align: center font-size:60%;>
+        <p class="desc" style= "font-family: Verdana, Geneva, Tahoma, sans-serif;" text-align: center font-size:60%;>
         Tokwa’t Baboy is one of the most well-known dishes in the Philippines and it is best tasted in  Pampanga. It features fried tofu with pig ears and soy sauce. If you want to try the best, then go to Mila’s Tokwa’t Baboy.
 
         </p>

@@ -83,7 +83,7 @@
   width:70%;
 }
 
-p {
+.desc {
   color: rgb(0, 0, 0);
   text-indent: 10px;
   font-size:11pt;
@@ -132,7 +132,6 @@ div.blogs-items {
 
 /* footer */
 .newsletter {
-  background-color: #ece7b4;
   color: #32502e;
   margin-top: 10rem;
 }
@@ -165,7 +164,7 @@ div.blogs-items {
 
 /* footer section */
 footer {
-  background-color: #f3efcc;
+  background-color: none;
 }
 
 .footer-container {
