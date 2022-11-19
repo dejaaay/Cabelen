@@ -20,14 +20,31 @@
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="https://raw.githubusercontent.com/dejaaay/Cabelen/main/assets/img/LigliganParul01.jpg" alt="First slide" style="width:640px;height:660px">
+                    <img class="d-block w-100" src="https://mnltoday.ph/wp-content/uploads/2019/03/hot-air-balloon.jpg" alt="First slide" style="width:640px;height:660px">
                 </div>
                 <div class="carousel-item ">
-                    <img class="d-block w-100" src="https://raw.githubusercontent.com/dejaaay/Cabelen/main/assets/img/HotAirBalloonClark01.jpg" alt="Second slide" style="width:640px;height:660px">
+                    <img class="d-block w-100" src="https://gttp.imgix.net/308790/x/0/?auto=format%2Ccompress&crop=faces%2Cedges%2Ccenter&bg=%23fff&fit=crop&q=35&h=504&dpr=1" alt="Second slide" style="width:640px;height:660px">
                     <div class="carousel-caption d-none d-md-block">
                         <h1 id="carousel-text">test</h1>
                     </div>
                 </div>
+                <div class="carousel-item ">
+                    <img class="d-block w-100" src="https://i0.wp.com/www.angsarap.net/wp-content/uploads/2019/11/Bringhe-Wide.jpg?ssl=1" alt="Second slide" style="width:640px;height:660px">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 id="carousel-text">test</h1>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img class="d-block w-100" src="http://www.traveltothephilippines.info/wp-content/uploads/2012/06/Pampanga-Sinukwan-Festival4.jpg" alt="Second slide" style="width:640px;height:660px">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 id="carousel-text">test</h1>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <img class="d-block w-100" src="https://2.bp.blogspot.com/-Om3GfjfF9Sw/XfgPi5uI6rI/AAAAAAAA80A/-xFymE-ZFtQXD195bPp5RFdG-epwezE-gCLcBGAsYHQ/s1600/79371861_1062324827444680_1454270166874456064_n.jpg" alt="Second slide" style="width:640px;height:660px">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 id="carousel-text">test</h1>
+                    </div>
             </div>
         
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
