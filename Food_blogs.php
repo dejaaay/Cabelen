@@ -13,9 +13,11 @@
     <link href="blogs.css" rel="stylesheet">
     <link href="gallery_newsletter.css" rel="stylesheet">
     <link href="gallery.css" rel="stylesheet">
-    <title>Document</title>
+    <title>Food Blogpage</title>
 </head>
 <body>
+
+<?php include "navbar-gallery.php"; ?>
 
     <div class="container px-5" id="Food">
       <div class="row gx-5 align-items-center">
