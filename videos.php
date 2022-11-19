@@ -19,7 +19,7 @@
     <section>
     <div class="bg-parent">
             <div class="bg-settings-left parol-bg-w1 rotate-right"></div>
-            <div class="bg-settings-right parol-bg-w1 rotate-left"></div>
+            <div class="bg-settings-right leaf-bg-w2"></div>
         </div>
             <div class="green-test-1 vidspacing container-fluid d-flex justify-content-evenly px-5">
             <div class="container px-5">
@@ -40,6 +40,7 @@
     <section>
     <div class="bg-parent">
             <div class="bg-settings-right parol-bg-b2"></div>
+            <div class="bg-settings-left leaf-bg-g1"></div>
         </div>
             <div class="white-bg vidspacing container-fluid d-flex justify-content-evenly px-5">
             <div class="container px-5">
@@ -61,6 +62,7 @@
         <section>
         <div class="bg-parent">
             <div class="bg-settings-left parol-bg-w2"></div>
+            <div class="bg-settings-right leaf-bg-w2"></div>
         </div>
             <div class="green-test-1 vidspacing container-fluid d-flex justify-content-evenly px-5">
             <div class="container px-5">
@@ -81,6 +83,7 @@
         <section>
         <div class="bg-parent">
             <div class="bg-settings-right parol-bg-b1 rotate-left"></div>
+            <div class="bg-settings-left leaf-bg-g1"></div>
         </div>
             <div class="white-bg vidspacing container-fluid d-flex justify-content-evenly px-5">
             <div class="container px-5">
@@ -101,6 +104,7 @@
         <section>
         <div class="bg-parent">
             <div class="bg-settings-left parol-bg-w1 rotate-right"></div>
+            <div class="bg-settings-right leaf-bg-w2"></div>
         </div>
             <div class="green-test-1 vidspacing container-fluid d-flex justify-content-evenly px-5">
             <div class="container px-5">
@@ -121,6 +125,7 @@
         <section>
         <div class="bg-parent">
             <div class="bg-settings-right parol-bg-b2"></div>
+            <div class="bg-settings-left leaf-bg-g1"></div>
         </div>
             <div class="white-bg vidspacing container-fluid d-flex justify-content-evenly px-5">
             <div class="container px-5">
