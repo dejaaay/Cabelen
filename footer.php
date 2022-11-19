@@ -6,7 +6,7 @@
           <img src="img/CabalenLight.png" alt="Cabalen Logo" width="395" height="237" class="img">
   	 		</div>
 
-  	 		<div class="footer-col">
+  	 		<div class="footer-col p-2">
   	 			<h4>About Us</h4>
           <p style="color:white;">
           Here at Cabalen: Explore Pampanga!
