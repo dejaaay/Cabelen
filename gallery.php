@@ -17,7 +17,7 @@
 </head>
 <body>
 
-<?php include "navbar-gallery.php"; ?>
+<?php include "navbar.php"; ?>
 
 <div class="imgGallery p-2">
 <div class="row">
