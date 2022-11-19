@@ -38,6 +38,7 @@
             <span class="sr-only">Next</span>
         </a>
         </div>
+        <br>
         <!-- Current news and updates -->
         <!--Video part--> 
     <iframe 
