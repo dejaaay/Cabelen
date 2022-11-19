@@ -38,7 +38,7 @@
               </div>
             </div>
           </nav>
-          <?php include 'navbar.php' ?>
+          <?php include 'navbar.php';?>
         <!-- Greetings na naka carousell part -->
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
