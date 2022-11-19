@@ -15,6 +15,13 @@
           <a class="nav-link" href="Food_blogs.php">Blogs</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="CultArts_blogs.php">Blogs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="TouristDest_blogs.php">Blogs</a>
+        </li>
+
+        <li class="nav-item">
           <a class="nav-link" href="videos.php">Videos</a>
         </li>
       </ul>

@@ -17,6 +17,8 @@
 </head>
 <body>
 
+<?php include "navbar.php"; ?>
+
     <div class="container px-5" id="ArtsCulture">
       <div class="row gx-5 align-items-center">
         <div class="col-lg-12">
