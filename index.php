@@ -84,7 +84,8 @@
                     <div class="col-lg-6 order-lg-1">
                         <div class="p-5">
                             <h2 class="display-4">Explore Pampanga</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+                            <p>Pampanga is waving and is ready to welcome you open arms! Experience its rich culture, mouthwatering foods and exciting attractions and tourist destinations. 
+                                Our website is designed for everyone who is looking forward to enrich themselves in all the facets of Pampanga. </p>
                         </div>
                     </div>
                 </div>
@@ -100,7 +101,9 @@
                     <div class="col-lg-6">
                         <div class="p-5">
                             <h2 class="display-4">Learn about the Culture</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+                            <p>Not knowing where and what to eat? Our blog section will convince you why Pampanga is truly the Culinary Capital of the Philippines.  
+                                There you will indulge a wide variety of dishes from their famous Sisig to their Paella. Exotic dishes will surely tickle your tastebuds from Betute, or deep fried stuffed frog, to their Kamaru, or mole crickets! 
+                                Tara! Mangan Tamu!</p>
                         </div>
                     </div>
                 </div>
