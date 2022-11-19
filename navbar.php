@@ -15,10 +15,10 @@
           <a class="nav-link" href="Food_blogs.php">Blogs</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="CultArts_blogs.php">Blogs</a>
+          <a class="nav-link" href="CultArts_blogs.php"> </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="TouristDest_blogs.php">Blogs</a>
+          <a class="nav-link" href="TouristDest_blogs.php"> </a>
         </li>
 
         <li class="nav-item">
