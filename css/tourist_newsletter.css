@@ -6,7 +6,9 @@ input[type=text]  {
 	margin: 1px 0;
 	margin-bottom: 0px;
 	/*display: inline-block;*/
-    position: relative;
+	position: absolute;
+    left: 470px;
+    top: 6934px;
     
 } 
 input[type=submit]{
@@ -15,8 +17,9 @@ input[type=submit]{
 	margin: 1px 0;
 	margin-bottom: 0px;
 	/*display: inline-block;*/
-    position: relative;
-   
+    position: absolute;
+    left: 470px;
+    top: 6974px;
 }
   
 input[type=submit] {
@@ -31,11 +34,13 @@ input[type=submit]:hover {
 }
 
 .newsletter{
-    position: relative;
+    position: absolute;
+    left: 470px;
+    top: 6744px;
 
 }
 .img{
-    position: relative;
-	left: 20px;  
- 	margin: 0 15px 0 0;
+    position: absolute;
+    left: 35px;
+    top: 6644px;
 }

@@ -1,7 +1,8 @@
+<?php session_start();?>
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Cabalen Landing Page</title>
+        <title>Cabalen</title>
         <link rel="shortcut icon" href="https://raw.githubusercontent.com/dejaaay/Cabelen/main/assets/img/Cabalen.png">
         <!-- Required meta tags -->
         <meta charset="utf-8">
@@ -19,10 +20,10 @@
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="https://raw.githubusercontent.com/dejaaay/Cabelen/main/assets/img/LigliganParul01.jpg" alt="First slide">
+                    <img class="d-block w-100" src="https://raw.githubusercontent.com/dejaaay/Cabelen/main/assets/img/LigliganParul01.jpg" alt="First slide" style="width:640px;height:660px">
                 </div>
                 <div class="carousel-item ">
-                    <img class="d-block w-100" src="https://raw.githubusercontent.com/dejaaay/Cabelen/main/assets/img/HotAirBalloonClark01.jpg" alt="Second slide">
+                    <img class="d-block w-100" src="https://raw.githubusercontent.com/dejaaay/Cabelen/main/assets/img/HotAirBalloonClark01.jpg" alt="Second slide" style="width:640px;height:660px">
                     <div class="carousel-caption d-none d-md-block">
                         <h1 id="carousel-text">test</h1>
                     </div>
@@ -38,6 +39,7 @@
             <span class="sr-only">Next</span>
         </a>
         </div>
+        <br>
         <!-- Current news and updates -->
         <!--Video part--> 
     <iframe 
@@ -143,10 +145,10 @@
 </div>   
 <br>
     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS 
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <?php include "footer.php"; ?>
   </body>
 </html>
