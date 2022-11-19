@@ -76,6 +76,26 @@
   background-position: 50px 150px;
 }
 
+.leaf-bg-g1 {
+  background-image: url(img/leaf_green_R.png);
+  background-position: 50px 150px;
+}
+
+.leaf-bg-g2 {
+  background-image: url(img/leaf_green_L.png);
+  background-position: 50px 150px;
+}
+
+.leaf-bg-w1 {
+  background-image: url(img/leaf_white_R.png);
+  background-position: 0px 0px;
+}
+
+.leaf-bg-w2 {
+  background-image: url(img/leaf_white_L.png);
+  background-position: 50px 150px;
+}
+
 
 .vidspacing {
   padding-top: 50px;
