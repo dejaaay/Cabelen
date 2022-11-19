@@ -19,8 +19,11 @@
         <!-- Greetings na naka carousell part -->
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="carousel-item active text-center">
                     <img class="d-block w-100" src="https://mnltoday.ph/wp-content/uploads/2019/03/hot-air-balloon.jpg" alt="First slide" style="width:640px;height:660px">
+                    <div class="carousel-caption text-center">
+                        <h1 id="carousel-text">Hot Air Ballon Festival</h1>
+                    </div>            
                 </div>
                 <div class="carousel-item ">
                     <img class="d-block w-100" src="https://gttp.imgix.net/308790/x/0/?auto=format%2Ccompress&crop=faces%2Cedges%2Ccenter&bg=%23fff&fit=crop&q=35&h=504&dpr=1" alt="Second slide" style="width:640px;height:660px">
