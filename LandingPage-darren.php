@@ -14,14 +14,14 @@
     </head>
     <body>
         <nav class="navbar navbar-custom"><!--this is the navbar-->
-          <a class="navbar-brand" href="#"><!--Change na lang sa final php file this is for home-->
+          <a class="navbar-brand" href="#"><!--Change na lang sa final php file this is for home // Done-->
             <img src="https://raw.githubusercontent.com/dejaaay/Cabelen/main/assets/img/cabalen2.jpg" width="50" height="30" class="d-inline-block align-top" alt="">  Cabalen</a>
           <ul>
           <li class="nav-item">
-            <a class="nav-link" href="#">Blogs</a> <!--just change "#" with the php file for blog later-->
+            <a class="nav-link" href="#">Blogs</a> <!--just change "#" with the php file for blog later// Done-->
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Places</a> <!--just change "#" with the php file for places later-->
+            <a class="nav-link" href="#">Places</a> <!--just change "#" with the php file for places later // Done-->
           </li>
           </ul>
         </nav>
