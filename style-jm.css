@@ -9,12 +9,76 @@
 
 }
 
-
-.red-bg {
-  background-color:#B95656
+.green-bg {
+  background-color:#628071
 }
 
+.green-test-1{
+  background-color:#d3e8d3
+}
+
+.rotate-right {
+  transform: rotate(90deg);
+}
+
+.rotate-left {
+  transform: rotate(-90deg);
+}
+
+.white-bg {
+  background-color: white
+}
+
+.bg-parent{
+  border-top: 1px #d3e8d3;
+  position:relative;
+}
+
+.bg-settings-right {
+  width: 500px;
+    height: 500px;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+  
+    position: absolute;
+    top:0px;
+    right:0px
+  }
+
+.bg-settings-left {
+  width: 500px;
+    height: 500px;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+  
+    position: absolute;
+    top:0px;
+    left:0px
+  }
+
+.parol-bg-b1 {
+  background-image: url(img/parol_black_1.png);
+  background-position: 150px 250px;
+}
+
+.parol-bg-b2 {
+  background-image: url(img/parol_black_2.png);
+  background-position: 300px 150px;
+}
+
+.parol-bg-w1 {
+  background-image: url(img/parol_white_1.png);
+  background-position: 150px 250px;
+}
+
+.parol-bg-w2 {
+  background-image: url(img/parol_white_2.png);
+  background-position: 50px 150px;
+}
+
+
 .vidspacing {
+  padding-top: 50px;
   margin-top: 25px;
   margin-bottom: 25px;
 }
@@ -24,6 +88,6 @@
 
 
 .test{
-    background-color = #546B60;
+    background-color: #546B60;
 }
 
