@@ -2,7 +2,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Cabalen Landing Page</title>
+        <title>Cabalen</title>
         <link rel="shortcut icon" href="https://raw.githubusercontent.com/dejaaay/Cabelen/main/assets/img/Cabalen.png">
         <!-- Required meta tags -->
         <meta charset="utf-8">

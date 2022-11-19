@@ -14,19 +14,7 @@
 </head>
 <body>
     <!--NavbarCode-->
-    <nav class="navbar navbar-custom"><!--this is the navbar-->
-      <a class="navbar-brand" href="#"> <!--change na lang po sa homepage-->
-           <!--Pachange na lang neto sa filename nung pic-->        
-          <img src="#" width="50" height="30" class="d-inline-block align-top" alt="">  Cabalen</a>
-      <ul>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Blogs</a> <!--just change "#" with the php file for blog later-->
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Places</a> <!--just change "#" with the php file for places later-->
-      </li>
-      </ul>
-    </nav>
+    <?php include "navbar.php"; ?>
     <!-- Content Section 1 -->
 
     <section id="scroll">
