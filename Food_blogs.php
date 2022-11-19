@@ -17,13 +17,13 @@
 </head>
 <body>
 
-<?php include "navbar-gallery.php"; ?>
+<?php include "navbar.php"; ?>
 
     <div class="container px-5" id="Food">
       <div class="row gx-5 align-items-center">
         <div class="col-lg-12">
             <br><br>
-            <h1 style="font-family:Verdana, Geneva, Tahoma, sans-serif"> Food </h1> 
+            <h1 style="font-family:Verdana, Geneva, Tahoma, sans-serif"> A foodie in Pampanga? </h1> 
             <img src="https://gttp.imgix.net/352610/x/0/" alt="Food" class="center">
             <div class="container p-2">
         </div>
@@ -51,11 +51,7 @@
         </div>
 
         <p style= "font-family: Verdana, Geneva, Tahoma, sans-serif;" text-align: center font-size:60%;>
-        Pampanga is proudly the Culinary Capital of the Philippines where great and 
-        astonishing cooks and scrumptious foods are found. In Pampanga, you will savor a wide variety 
-        of dishes from their famous Sisig to their Paella. Exotic dishes will surely tickle your tastebuds from Betute, 
-        or deep fried stuffed frog, to their Kamaru, or mole crickets.
-        Tara! Mangan Tamu!
+        Do you want to try a stuffed frog? Known as the Betute Tagak these frogs are farm-raised so they are safe to eat and stuffed with ground beef, a must to try in Apag Marangle.
         </p>
         </div>
               </div>
@@ -73,11 +69,8 @@
         </div>
 
         <p style= "font-family: Verdana, Geneva, Tahoma, sans-serif;" text-align: center font-size:60%;>
-        Pampanga is proudly the Culinary Capital of the Philippines where great and 
-        astonishing cooks and scrumptious foods are found. In Pampanga, you will savor a wide variety 
-        of dishes from their famous Sisig to their Paella. Exotic dishes will surely tickle your tastebuds from Betute, 
-        or deep fried stuffed frog, to their Kamaru, or mole crickets.
-        Tara! Mangan Tamu!
+        Bringhe is like a paella with a Kapampangan twist, down at Downtown Café 1956 they can serve you this specialty which is cooked with Luyang dilaw and gata topped with carrots, bell peppers and boiled eggs.
+
         </p>
         </div>
               </div>
@@ -95,11 +88,7 @@
         </div>
 
         <p style= "font-family: Verdana, Geneva, Tahoma, sans-serif;" text-align: center font-size:60%;>
-        Pampanga is proudly the Culinary Capital of the Philippines where great and 
-        astonishing cooks and scrumptious foods are found. In Pampanga, you will savor a wide variety 
-        of dishes from their famous Sisig to their Paella. Exotic dishes will surely tickle your tastebuds from Betute, 
-        or deep fried stuffed frog, to their Kamaru, or mole crickets.
-        Tara! Mangan Tamu!
+        Murcon is a Kapampangan specialty that consists of ground pork & beef, hard-boiled eggs, pickles and hotdog/chorizo slices, it's mostly served at parties but why not try it for lunch at Everybody’s Café.
         </p>
         </div>
               </div>
@@ -117,11 +106,8 @@
         </div>
 
         <p style= "font-family: Verdana, Geneva, Tahoma, sans-serif;" text-align: center font-size:60%;>
-        Pampanga is proudly the Culinary Capital of the Philippines where great and 
-        astonishing cooks and scrumptious foods are found. In Pampanga, you will savor a wide variety 
-        of dishes from their famous Sisig to their Paella. Exotic dishes will surely tickle your tastebuds from Betute, 
-        or deep fried stuffed frog, to their Kamaru, or mole crickets.
-        Tara! Mangan Tamu!
+        Pako salad, a specialty in Abe’s Farm, gives you a fresh taste and scenery. There are plentiful of pako in Pampanga. The salad consists of paco fern, raw onion, tomato strips and salted eggs.
+
         </p>
         </div>
               </div>
@@ -139,11 +125,8 @@
         </div>
 
         <p style= "font-family: Verdana, Geneva, Tahoma, sans-serif;" text-align: center font-size:60%;>
-        Pampanga is proudly the Culinary Capital of the Philippines where great and 
-        astonishing cooks and scrumptious foods are found. In Pampanga, you will savor a wide variety 
-        of dishes from their famous Sisig to their Paella. Exotic dishes will surely tickle your tastebuds from Betute, 
-        or deep fried stuffed frog, to their Kamaru, or mole crickets.
-        Tara! Mangan Tamu!
+        Did you know the Kapampangan cuisine introduced sisig to the country and was later on re-invented by the known restaurant owner Aling Lucing and Sisig is mostly made out of pig head and it has been boiled, grilled and fried before being put on a sizzling plate Aling Lucing Sisig is where you should go if you ought to try the origin of the sisig.
+
         </p>
         </div>
               </div>
@@ -161,11 +144,7 @@
         </div>
 
         <p style= "font-family: Verdana, Geneva, Tahoma, sans-serif;" text-align: center font-size:60%;>
-        Pampanga is proudly the Culinary Capital of the Philippines where great and 
-        astonishing cooks and scrumptious foods are found. In Pampanga, you will savor a wide variety 
-        of dishes from their famous Sisig to their Paella. Exotic dishes will surely tickle your tastebuds from Betute, 
-        or deep fried stuffed frog, to their Kamaru, or mole crickets.
-        Tara! Mangan Tamu!
+        Now for some pasalubong San Nicolas Cookies is the one to take home for. Its specialness came  from its intricate embroidered like design. So don’t forget to bring some pasalubong to your loved ones and let them experience some kapampangan.
         </p>
         </div>
               </div>
@@ -183,11 +162,8 @@
         </div>
 
         <p style= "font-family: Verdana, Geneva, Tahoma, sans-serif;" text-align: center font-size:60%;>
-        Pampanga is proudly the Culinary Capital of the Philippines where great and 
-        astonishing cooks and scrumptious foods are found. In Pampanga, you will savor a wide variety 
-        of dishes from their famous Sisig to their Paella. Exotic dishes will surely tickle your tastebuds from Betute, 
-        or deep fried stuffed frog, to their Kamaru, or mole crickets.
-        Tara! Mangan Tamu!
+        How about a dessert? Tibuk-Tibuk it is a Kapampangan’s version of a maja blanca.The main ingredient is carabao milk in which Susie’s Cuisine is where to go to try this.
+
         </p>
         </div>
               </div>
@@ -206,11 +182,8 @@
         </div>
 
         <p style= "font-family: Verdana, Geneva, Tahoma, sans-serif;" text-align: center font-size:60%;>
-        Pampanga is proudly the Culinary Capital of the Philippines where great and 
-        astonishing cooks and scrumptious foods are found. In Pampanga, you will savor a wide variety 
-        of dishes from their famous Sisig to their Paella. Exotic dishes will surely tickle your tastebuds from Betute, 
-        or deep fried stuffed frog, to their Kamaru, or mole crickets.
-        Tara! Mangan Tamu!
+        Tokwa’t Baboy is one of the most well-known dishes in the Philippines and it is best tasted in  Pampanga. It features fried tofu with pig ears and soy sauce. If you want to try the best, then go to Mila’s Tokwa’t Baboy.
+
         </p>
         </div>
               </div>
