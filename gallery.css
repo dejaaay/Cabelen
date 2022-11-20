@@ -73,6 +73,7 @@ body{
 
 /* end of hover with name */
 
+/*footer*/
 .footer{
 	background-color: #253532;
     padding: 80px 0;
@@ -116,7 +117,7 @@ body{
 	color: #24262b;
 	background-color: #ffffff;
 }
-
+/*--end of footer--*/
 
 
 /*responsive*/
