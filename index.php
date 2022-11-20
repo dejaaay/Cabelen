@@ -11,7 +11,7 @@
         <!-- Bootstrap CSS 
         <link rel="stylesheet" href = "darren-cssfile.css"/>
         <link href="style-peter.css" rel="stylesheet" />-->
-        <link href="index-css.css" rel="stylesheet" />
+        <link href="index.css" rel="stylesheet" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
     <body>
@@ -152,18 +152,6 @@
                 </div>
             </div>
         </div>
-        <!--<div class="col">
-            <div class="card border-secondary bg-success mb-3" style="width: 25rem; height: auto;">
-                <img src="https://sa.kapamilya.com/absnews/abscbnnews/media/2019/news/06/07/20190607-bundok-l.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Agencies urged: Take measures to prevent landslides at Mount Arayat</h5>
-                    <p class="card-text">Gonzales over the weekend met with officials of the two agencies in preparation for the onslaught of tropical storm "Paeng" and tropical depression “Queenie”.</p>
-                    <div class="card-footer text-center">
-                        <a href="https://www.sunstar.com.ph/article/1944981/pampanga/local-news/agencies-urged-take-measures-to-prevent-landslides-at-mount-arayat" class="btn btn-primary" target="_blank">View Article</a>
-                    </div>
-                </div>
-            </div>
-        </div>-->
     </div>
 </div>   
 <br>
