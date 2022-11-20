@@ -171,7 +171,7 @@
   </div>
   <div class="col-md-3 pt-2 pb-3">
     <div class="thumbnail">
-      <a href="img/Mt.Arayat.png">
+      <a href="Food_blogs.php#SanNicolasCookies">
         <img src="img/SanNicolasCookies.png" alt="San Nicolas Cookies" style="width:100%">
       </a>
       <div class="middle">

@@ -18,6 +18,34 @@
 <body>
 <?php include "navbar.php"; ?>  
 
+    <div class="road1">
+      <img src="img/15.png" alt="Mountain Icon" width="250" height="250">
+    </div>
+    <div class="road2">
+      <img src="img/16.png" alt="Mountain Icon" width="250" height="250">
+    </div>
+    <div class="pin1">
+      <img src="img/17.png" alt="Pin Icon" width="250" height="250">
+    </div>
+    <div class="pin2">
+      <img src="img/18.png" alt="Pin Icon" width="250" height="250">
+    </div>
+    <div class="mountain1">
+      <img src="img/20.png" alt="Mountain Icon" width="250" height="250">
+    </div>
+    <div class="mountain2">
+      <img src="img/19.png" alt="Mountain Icon" width="250" height="250">
+    </div>
+    <div class="trees1">
+      <img src="img/21.png" alt="Trees Icon" width="250" height="250">
+    </div>
+    <div class="trees2">
+      <img src="img/22.png" alt="Trees Icon" width="250" height="250">
+    </div>
+    <div class="map1">
+      <img src="img/23.png" alt="Map Icon" width="250" height="250">
+    </div>
+    
     <div class="container px-5" id="TouristSpots">
       <div class="row gx-5 align-items-center">
         <div class="col-lg-12">

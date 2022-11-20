@@ -1,3 +1,55 @@
+/* --Icons-- */
+.mushroom1{
+	position: absolute;
+	left: 115px;
+	top: 450px;
+}
+.mushroom2{
+	position: absolute;
+	left: 1150px;
+	top: 2200px;
+}
+.murcon2{
+	position: absolute;
+	left: 1150px;
+	top: 2400px;
+}
+.bbq1{
+	position: absolute;
+	left: 115px;
+	top: 1500px;
+}
+.bbq2{
+	position: absolute;
+	left: 1150px;
+	top: 950px;
+}
+.bowl1{
+	position: absolute;
+	left: 115px;
+	top: 2900px;
+}
+.bowl2{
+	position: absolute;
+	left: 1150px;
+	top: 3550px;
+}
+.juice1{
+	position: absolute;
+	left: 150px;
+	top: 4150px;
+}
+.juice2{
+	position: absolute;
+	left: 1150px;
+	top: 4750px;
+}
+.sili{
+	position: absolute;
+	left: 115px;
+	top: 5400px;
+}
+/* --end of Icons-- */
 
 /* News letter */
 input[type=text]  {
@@ -5,7 +57,6 @@ input[type=text]  {
 	padding: 8px;
 	margin: 1px 0;
 	margin-bottom: 0px;
-	/*display: inline-block;*/
 	position: absolute;
     left: 470px;
     top: 6144px;
@@ -16,7 +67,6 @@ input[type=submit]{
 	padding: 8px;
 	margin: 1px 0;
 	margin-bottom: 0px;
-	/*display: inline-block;*/
     position: absolute;
     left: 470px;
     top: 6184px;
