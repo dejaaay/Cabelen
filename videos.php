@@ -14,8 +14,9 @@
 </head>
 <body class="green-test-1">
 
-    <!--NavbarCode-->
+    <!-- NavbarCode -->
     <?php include "navbar.php"; ?>
+    
     <!-- Content Section 1 -->
     <section>
     <div class="bg-parent">
@@ -37,6 +38,7 @@
             </div>
         </div>
         </section>
+
     <!-- Content Section 2 -->
     <section>
     <div class="bg-parent">
