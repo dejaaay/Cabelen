@@ -115,7 +115,7 @@
 <div class= "container">
     <div class= "row">
         <div class= "col">
-            <div class="card border-secondary bg-success mb-3" style="width: 18rem; height: auto;">
+            <div class="card border-secondary bg-success mb-3" style="width: 25rem; height: auto;">
                <img src="https://kapampangan.org/wp-content/uploads/2019/06/Pampanga-clay-making-pottery.png" class="card-img-top" alt="pampanga art">      
                <div class="card-body">
                     <h5 class="card-title">Kapampangan Art</h5>
@@ -128,7 +128,7 @@
             </div>
         </div>
         <div class="col">      
-            <div class="card border-secondary bg-success mb-3" style="width: 18rem; height: auto;">
+            <div class="card border-secondary bg-success mb-3" style="width: 25rem; height: auto;">
                 <img src="https://thehappytrip.com/wp-content/uploads/2019/08/IMG_20190812_095842.jpg" class="card-img-top" alt="Puning Hot Spring">
                 <div class="card-body">
                     <h5 class="card-title">Stakeholders urge reopening of Puning Hot Spring</h5>
@@ -140,7 +140,7 @@
             </div>
         </div>
         <div class="col">
-            <div class="card border-secondary bg-success mb-3" style="width: 18rem; height: auto;">
+            <div class="card border-secondary bg-success mb-3" style="width: 25rem; height: auto;">
                 <img src="https://img.freepik.com/free-photo/healthy-vegetables-wooden-table_1150-38014.jpg?w=2000" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">San Simon village wins Best Gulayan Sa Barangay</h5>
@@ -152,8 +152,8 @@
                 </div>
             </div>
         </div>
-        <div class="col">
-            <div class="card border-secondary bg-success mb-3" style="width: 18rem; height: auto;">
+        <!--<div class="col">
+            <div class="card border-secondary bg-success mb-3" style="width: 25rem; height: auto;">
                 <img src="https://sa.kapamilya.com/absnews/abscbnnews/media/2019/news/06/07/20190607-bundok-l.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Agencies urged: Take measures to prevent landslides at Mount Arayat</h5>
@@ -163,7 +163,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
     </div>
 </div>   
 <br>

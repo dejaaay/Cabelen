@@ -32,28 +32,15 @@ ul{
     display: flex;
 }
 
-#About{
-    text-align: left;
-}
-
-#videos{
-    text-align: center;
-}
-
-#padding{
-    padding: 30px;
-}
-
-
-#FAQ{
-    font-size: 1cm;
-    color: black;
-    font-weight: bold;
-}
-
 .navbar{
     background-color: #253532;
 }
+
+.carousel-inner img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
 
 iframe.center {
   display: block;
