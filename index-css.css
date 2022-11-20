@@ -65,6 +65,10 @@ iframe.center {
   clear: both;
 }
 
+.card-body{
+  background-color: #253532;
+}
+
 .footer{
 	background-color: #253532;
     padding: 80px 0;

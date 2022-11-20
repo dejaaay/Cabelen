@@ -144,8 +144,8 @@
                 <img src="https://img.freepik.com/free-photo/healthy-vegetables-wooden-table_1150-38014.jpg?w=2000" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">San Simon village wins Best Gulayan Sa Barangay</h5>
-                    <p class="card-text">SAN SIMON Barangay Santa Monica of this town was named champion in Search for Best Gulayan sa Barangay in Pampanga.</p>
-                    <br><br>
+                    <p class="card-text">SAN SIMON Barangay Santa Monica of this town was named champion in Search for Best Gulayan in Pampanga.</p>
+                    <br>
                     <div class="card-footer text-center">
                         <a href="https://www.sunstar.com.ph/article/1944540/pampanga/local-news/san-simon-village-wins-best-gulayan-sa-barangay" class="btn btn-primary" target="_blank">View Article</a>
                     </div>
