@@ -1,0 +1,65 @@
+ul{
+    list-style-type: none;
+    display: flex;
+}
+.navbar-custom {
+    background-color: rgb(39, 57, 54);
+}
+.nav-link{
+    color:white;
+}
+.navbar-brand{
+    color:white;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.scroll{
+    list-style-type: none;
+    display: flex;
+}
+
+#About{
+    text-align: left;
+}
+
+#videos{
+    text-align: center;
+}
+
+#padding{
+    padding: 30px;
+}
+
+#newsletter{
+    background-color: #D9D9D9;
+    padding: 15px;
+}
+#about_us{
+    margin-top: 25px;
+    padding: 30px;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: space-between;
+}
+
+#FAQ{
+    font-size: 1cm;
+    color: black;
+    font-weight: bold;
+}
+#video-eme{
+    display: flex;
+    justify-content: center;
+}
+.navbar{
+    background-color: #253532;
+}
