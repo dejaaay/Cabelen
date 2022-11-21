@@ -22,6 +22,11 @@
 .navbar{
   background-color: #253532;
 }
+.admin-navbar{
+  background-color: #253532;
+  height: 18px;
+}
+
 
 .search-form {
   position: relative;
