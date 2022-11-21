@@ -46,7 +46,7 @@ ul{
 }
 
 .carousel-inner img {
-  width: 100%;
+  width: 105%;
   height: 100vh;
   object-fit: cover;
   }
@@ -98,7 +98,7 @@ iframe.center {
 }
 
 .card-body{
-  background-color: #253532;
+  background-color: #208c78;
 }
 
 .footer{

@@ -76,24 +76,10 @@
             <span class="sr-only">Next</span>
         </a>
         </div>
-        
-        <hr>
-        <!-- Current news and updates -->
-        <!--Video part--> 
-    <iframe 
-        class= "center"
-        width=100% 
-        height="900" 
-        src="https://www.youtube.com/embed/-3k-SC22zbA?autoplay=1" 
-        title="YouTube video player" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen>
-    </iframe>
-    <br><br><br>
+        <br>
         <!-- about the page -->
         <!-- Content Section 1 -->
-    <section id="scroll">
+        <section id="scroll">
             <div class="container px-5">
                 <div class="row gx-5 align-items-center">
                     <div class="col-lg-6 order-lg-2">
@@ -129,6 +115,19 @@
                 </div>
             </div>
         </section>
+        <br>
+        <!--Video part--> 
+    <iframe 
+        class= "center"
+        width=100% 
+        height="900" 
+        src="https://www.youtube.com/embed/-3k-SC22zbA?autoplay=1" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+    </iframe>
+    <br>
         <!--News And Blogs-->
         <hr>
         <h1 class="display-4 text-center">News</h1>
