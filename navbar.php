@@ -1,4 +1,3 @@
-<?php?>
 <nav class="navbar navbar-expand-sm navbar-dark">
   <div class="container-fluid">
     <a class="navbar-brand logo" href="index.php" id="logo">
