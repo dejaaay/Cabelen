@@ -13,9 +13,13 @@ body {
   background-color: black;
   font-family: 'Courier New', Courier, monospace;
 }
+.logo{
+	margin-left: 30px;
+}
 ul{
-    list-style-type: none;
-    display: flex;
+    position: absolute;
+    right: 50px;
+	list-style: none;
 }
 .navbar-custom {
     background-color: rgb(39, 57, 54);
