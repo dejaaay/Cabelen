@@ -18,11 +18,13 @@
         <!-- Greetings na naka carousell part -->
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active text-center">
-                    <img class="d-block w-100" src="https://mnltoday.ph/wp-content/uploads/2019/03/hot-air-balloon.jpg" alt="First slide" style="width:640px;height:660px">
-                    <div class="carousel-caption text-center">
-                        <h1 id="carousel-text">Hot Air Ballon Festival</h1>
-                    </div>            
+                <div class="carousel-item active">
+                    <div class="card bg-dark text-white">
+                        <img src="https://mnltoday.ph/wp-content/uploads/2019/03/hot-air-balloon.jpg" class="card-img" alt="First slide">
+                        <div class="card-img-overlay">
+                            <h1 class="card-title1">Hot Air Balloon Festival</h1>
+                        </div>
+                    </div>
                 </div>
                 <div class="carousel-item ">
                     <img class="d-block w-100" src="https://gttp.imgix.net/308790/x/0/?auto=format%2Ccompress&crop=faces%2Cedges%2Ccenter&bg=%23fff&fit=crop&q=35&h=504&dpr=1" alt="Second slide" style="width:640px;height:660px">
@@ -58,7 +60,8 @@
             <span class="sr-only">Next</span>
         </a>
         </div>
-        <br>
+        
+        <hr>
         <!-- Current news and updates -->
         <!--Video part--> 
     <iframe 
@@ -110,7 +113,9 @@
         </section>
         
         <!--News And Blogs-->
-        <h1> News and Blogs</h1>
+        <hr>
+        <center><h1>News</h1></center>
+        <br>
 <div class= "container">
     <div class= "row">
         <div class= "col">
