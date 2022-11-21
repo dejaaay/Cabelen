@@ -1,0 +1,32 @@
+.navbar {
+    background: #32502e;
+}
+
+.admin-wrapper {
+    display: flex;
+    height: 100%;
+}
+
+.admin-wrapper .left-sidebar {
+    flex: 2;
+    height: 100%;
+    background: #32502e;
+}
+
+.admin-wrapper .left-sidebar ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+.admin-wrapper .left-sidebar ul li a {
+    padding: 18px;
+    display: block;
+    border-bottom: 1px solid red;
+}
+
+.admin-wrapper .admin-content {
+    flex: 8;
+    height: 100%;
+}
