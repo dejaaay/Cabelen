@@ -23,7 +23,7 @@
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <div class="card bg-dark text-white">
+                    <div class="card text-white">
                         <img src="https://mnltoday.ph/wp-content/uploads/2019/03/hot-air-balloon.jpg" class="card-img" alt="First slide">
                         <div class="card-img-overlay">
                             <h1 class="card-title1">Hot Air Balloon Festival</h1>
