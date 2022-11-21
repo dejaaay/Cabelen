@@ -42,14 +42,15 @@ ul{
     object-fit: cover;
   }
 
-  .carousel-text{
-    position: absolute;
+.card-title1{
     margin: 0;
-    color: rgb(10, 10, 10);
-    left: 50%;
+    position: absolute;
     top: 50%;
-    transform: translate(-50%, -50%);
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
   }
+
 
 iframe.center {
   display: block;
@@ -121,9 +122,3 @@ iframe.center {
 	color: #24262b;
 	background-color: #ffffff;
 }
-
-
-
-
-
-
