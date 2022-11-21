@@ -7,8 +7,7 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!-- Latest compiled and minified CSS 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">-->
+        <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> 
         <!-- Latest compiled JavaScript -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
@@ -52,16 +51,15 @@
                     </div>
                 </div>
                 <div class="carousel-item ">
-                <div class="card text-white">
+                    <div class="card text-white">
                         <img src="http://www.traveltothephilippines.info/wp-content/uploads/2012/06/Pampanga-Sinukwan-Festival4.jpg" class="card-img" alt="fourth slide">
                         <div class="card-img-overlay">
                             <h1 class="card-title1">Sinukwan Festival</h1>
                         </div>
                     </div>
                 </div>
-                </div>
                 <div class="carousel-item ">
-                <div class="card text-white">
+                    <div class="card text-white">
                         <img src="https://2.bp.blogspot.com/-Om3GfjfF9Sw/XfgPi5uI6rI/AAAAAAAA80A/-xFymE-ZFtQXD195bPp5RFdG-epwezE-gCLcBGAsYHQ/s1600/79371861_1062324827444680_1454270166874456064_n.jpg" class="card-img" alt="Fifth slide">
                         <div class="card-img-overlay">
                             <h1 class="card-title1">Giant Lantern Festival</h1>
