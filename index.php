@@ -15,7 +15,7 @@
     </head>
     <body>
         <?php include "navbar.php"; ?>
-        <!-- Greetings na naka carousell part -->
+        <!-- Greetings card na naka carousell part -->
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -27,30 +27,40 @@
                     </div>
                 </div>
                 <div class="carousel-item ">
-                    <img class="d-block w-100" src="https://gttp.imgix.net/308790/x/0/?auto=format%2Ccompress&crop=faces%2Cedges%2Ccenter&bg=%23fff&fit=crop&q=35&h=504&dpr=1" alt="Second slide" style="width:640px;height:660px">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h1 id="carousel-text">test</h1>
+                    <div class="card bg-dark text-white">
+                        <img src="https://gttp.imgix.net/308790/x/0/?auto=format%2Ccompress&crop=faces%2Cedges%2Ccenter&bg=%23fff&fit=crop&q=35&h=504&dpr=1" class="card-img" alt="First slide">
+                        <div class="card-img-overlay">
+                            <h1 class="card-title1">Mt. Pinatubo Crater Lake</h1>
+                        </div>
                     </div>
                 </div>
                 <div class="carousel-item ">
-                    <img class="d-block w-100" src="https://i0.wp.com/www.angsarap.net/wp-content/uploads/2019/11/Bringhe-Wide.jpg?ssl=1" alt="Second slide" style="width:640px;height:660px">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h1 id="carousel-text">test</h1>
+                <div class="card bg-dark text-white">
+                        <img src="https://i0.wp.com/www.angsarap.net/wp-content/uploads/2019/11/Bringhe-Wide.jpg?ssl=1" class="card-img" alt="First slide">
+                        <div class="card-img-overlay">
+                            <h1 class="card-title1">Bringhe</h1>
+                        </div>
                     </div>
                 </div>
                 <div class="carousel-item ">
-                    <img class="d-block w-100" src="http://www.traveltothephilippines.info/wp-content/uploads/2012/06/Pampanga-Sinukwan-Festival4.jpg" alt="Second slide" style="width:640px;height:660px">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h1 id="carousel-text">test</h1>
+                <div class="card bg-dark text-white">
+                        <img src="http://www.traveltothephilippines.info/wp-content/uploads/2012/06/Pampanga-Sinukwan-Festival4.jpg" class="card-img" alt="First slide">
+                        <div class="card-img-overlay">
+                            <h1 class="card-title1">Sinukwan Festival</h1>
+                        </div>
                     </div>
                 </div>
+                </div>
                 <div class="carousel-item ">
-                    <img class="d-block w-100" src="https://2.bp.blogspot.com/-Om3GfjfF9Sw/XfgPi5uI6rI/AAAAAAAA80A/-xFymE-ZFtQXD195bPp5RFdG-epwezE-gCLcBGAsYHQ/s1600/79371861_1062324827444680_1454270166874456064_n.jpg" alt="Second slide" style="width:640px;height:660px">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h1 id="carousel-text">test</h1>
+                <div class="card bg-dark text-white">
+                        <img src="https://2.bp.blogspot.com/-Om3GfjfF9Sw/XfgPi5uI6rI/AAAAAAAA80A/-xFymE-ZFtQXD195bPp5RFdG-epwezE-gCLcBGAsYHQ/s1600/79371861_1062324827444680_1454270166874456064_n.jpg" class="card-img" alt="First slide">
+                        <div class="card-img-overlay">
+                            <h1 class="card-title1">Giant Lantern Festival</h1>
+                        </div>
                     </div>
+                </div>
             </div>
-        
+            
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>

@@ -43,6 +43,8 @@ ul{
   }
 
 .card-title1{
+    font-size: 500%;   
+    font-weight: 900;
     margin: 0;
     position: absolute;
     top: 50%;
