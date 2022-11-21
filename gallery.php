@@ -14,7 +14,7 @@
     <link href="TouristDest_blogs.php" rel="stylesheet">
     <link href="Food_blogs.php" rel="stylesheet">
     
-    <link href="gallery.css" rel="stylesheet">
+    <link href="css/gallery.css" rel="stylesheet">
     <link href="css/gallery_newsletter.css" rel="stylesheet">
     <link rel="shortcut icon" href="https://raw.githubusercontent.com/dejaaay/Cabelen/main/assets/img/Cabalen.png">
     <title>Blog Gallery</title>
