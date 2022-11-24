@@ -1,0 +1,20 @@
+body {
+    background-image: url('asset/createbg.png');
+}
+.navbar{
+    background-color: #253532;
+}
+.logo{
+	margin-left: 30px;
+}
+ul{
+    position: absolute;
+    right: 50px;
+	list-style: none;
+}
+.container{
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 40px 20px #B7CDCA;
+  }

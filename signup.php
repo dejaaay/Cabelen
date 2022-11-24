@@ -25,11 +25,15 @@ if(isset($_POST['Submit'])) {
         <link href="css/login.css" rel="stylesheet">
         <title>LogIn</title>
     </head>
+    <style>
+    body {
+      background-image: url('img/loginbg.png');
+    }
+    </style>
     <body style="background-color:black;     
     display: flex;
     align-items: center;
     justify-content: center;">
-
 
     <div class="login" id="login" style=>
       <form  method="post" onSubmit="validate();">

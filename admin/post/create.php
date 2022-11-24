@@ -16,42 +16,30 @@ if (!isset($_SESSION['UserData']['user_email'])) {
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/6e2e82ae66.js" crossorigin="anonymous"></script>
+  <link href="asset/create.css" rel="stylesheet">
 </head>
-
 <body>
-  <div class="d-flex p-3">
-    <!-- Sidebar -->
-    <div class="p-3">
-      <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
-        aria-controls="offcanvasExample">
-        <i class="fa-solid fa-bars"></i>
-      </a>
-    </div>
-
-
-    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-      <div class="offcanvas-body">
-        <div>
-          Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists,
-          etc.
-        </div>
-        <div class="dropdown mt-3">
-          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-            Dropdown button
-          </button>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+  <!--Navbar-->
+    <nav class="navbar navbar-expand-sm navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand logo" href="index.php" id="logo">
+            <img src="asset/CabalenLight.png" alt="Cabalen Logo" width="120" height="72">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.php">Logout</a>
+            </li>
           </ul>
         </div>
       </div>
-    </div>
-    <!-- End of sidebar -->
+    </nav>
+  <!--End of Navbar-->
+  <div class="d-flex p-3">
+    
     <!-- Make Announcement -->
     <div class="container">
       <table class="table table-striped table-hover">
@@ -80,7 +68,7 @@ if (!isset($_SESSION['UserData']['user_email'])) {
       <td>' . $title . '</td>
       <td>' . $description . '</td>
       <td>
-      <button class="btn btn-primary">
+      <button class="btn btn-success">
         <a href="update.php? updateid=' . $id . '" class="text-light">Update</a></button>
         <button class="btn btn-danger">
         <a href="delete.php? deleteid=' . $id . '" class="text-light">Remove</a></button>
@@ -97,7 +85,7 @@ if (!isset($_SESSION['UserData']['user_email'])) {
         <tbody>
         </tbody>
       </table>
-      <button class="btn btn-primary my-5">
+      <button class="btn btn-success my-5">
         <a href="announcement.php" class="text-light">Add Announcement</a>
       </button>
     </div>
