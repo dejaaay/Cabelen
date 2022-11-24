@@ -1,15 +1,23 @@
 <?php
 include 'connect.php';
 $id = $_GET['updateid'];
+$sql="Select * from `posting` where id=$id";
+$result=mysqli_query($con,$sql);
+$row=mysqli_fetch_assoc($result);
+$image=$row['image'];
+$title=$row['title'];
+$description=$row['description'];
+
 if (isset($_POST['submit'])) {
   $image = $_POST['image'];
   $title = $_POST['title'];
   $description = $_POST['description'];
 
-  $sql = "update `posting` set id=$id, image='$image', title=''$title', 
+  $sql = "update `posting` set id=$id, image='$image', title='$title', 
   description='$description' where id=$id";
   $result = mysqli_query($con, $sql);
   if ($result) {
+
     header('location:create.php');
   } else {
     die(mysqli_error($con));
@@ -70,15 +78,18 @@ if (isset($_POST['submit'])) {
           <form action="#" method="post">
             <div class="mb-3">
               <label>File input: </label>
-              <input class="form-control" type="file" id="image" name="image">
+              <input class="form-control" type="file" id="image" name="image" value=<?php
+              echo $image; ?>>
             </div>
             <div class="mb-3">
               <label>Title:</label>
-              <input type="text" class="form-control" id="title" name="title">
+              <input type="text" class="form-control" id="title" name="title" value=<?php
+              echo $title; ?>>
             </div>
             <div class="mb-3">
               <label>Description:</label>
-              <textarea class="form-control" id="description" rows="3" name="description"></textarea>
+              <textarea class="form-control" id="description" rows="3" name="description" value=<?php
+              echo $description; ?>></textarea>
             </div>
 
             <input type="submit" class="btn btn-primary" name="submit"></input>
