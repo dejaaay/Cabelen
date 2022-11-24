@@ -5,7 +5,7 @@ input[type=text]  {
 	margin-bottom: 0px;
 	/*display: inline-block;*/
 	position: absolute;
-    left: 485px;
+    left: 385px;
     top: 3494px;
     
 } 
@@ -16,7 +16,7 @@ input[type=submit]{
 	margin-bottom: 0px;
 	/*display: inline-block;*/
     position: absolute;
-    left: 485px;
+    left: 385px;
     top: 3534px;
 }
   
@@ -33,12 +33,12 @@ input[type=submit]:hover {
 
 .newsletter{
     position: absolute;
-    left: 485px;
+    left: 385px;
     top: 3454px;
 
 }
 .img{
     position: absolute;
-    left: 35px;
+    left: 5px;
     top: 3244px;
 }

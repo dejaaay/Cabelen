@@ -1,4 +1,4 @@
-<?php session_start();?>
+<?php ?>
 <!doctype html>
 <html lang="en">
     <head>
@@ -76,9 +76,46 @@
             <span class="sr-only">Next</span>
         </a>
         </div>
-        
-        <hr>
-        <!-- Current news and updates -->
+        <br>
+        <!-- about the page -->
+        <!-- Content Section 1 -->
+        <section id="scroll">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="p-1"><img class="img-fluid" src="assets/img/HotAirBalloonClark01.jpg" alt="Cabalen Image 1"/></div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="p-1">
+                            <h2 class="display-4">Explore Pampanga</h2>
+                            <p class="txt">Pampanga is waving and is ready to welcome you open arms! Experience its rich culture, mouthwatering foods and exciting attractions and tourist destinations. 
+                                Our website is designed for everyone who is looking forward to enrich themselves in all the facets of Pampanga. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <br>
+    <!-- Content Section 2 -->
+    <section>
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="p-1"><img class="img-fluid" src="assets/img/LigliganParul01.jpg" alt="Cabalen Image 2"/></div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="p-1">
+                            <h1 class="display-4">Learn about the Culture</h1>
+                            <p class="txt">Not knowing where and what to eat? Our blog section will convince you why Pampanga is truly the Culinary Capital of the Philippines.  
+                                There you will indulge a wide variety of dishes from their famous Sisig to their Paella. Exotic dishes will surely tickle your tastebuds from Betute, or deep fried stuffed frog, to their Kamaru, or mole crickets! 
+                                Tara! Mangan Tamu!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
         <!--Video part--> 
     <iframe 
         class= "center"
@@ -90,46 +127,10 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
         allowfullscreen>
     </iframe>
-    <br><br><br>
-        <!-- about the page -->
-        <!-- Content Section 1 -->
-    <section id="scroll">
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid" src="assets/img/HotAirBalloonClark01.jpg" alt="Cabalen Image 1"/></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">Explore Pampanga</h2>
-                            <p>Pampanga is waving and is ready to welcome you open arms! Experience its rich culture, mouthwatering foods and exciting attractions and tourist destinations. 
-                                Our website is designed for everyone who is looking forward to enrich themselves in all the facets of Pampanga. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    <!-- Content Section 2 -->
-    <section>
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6">
-                        <div class="p-5"><img class="img-fluid" src="assets/img/LigliganParul01.jpg" alt="Cabalen Image 2"/></div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="p-5">
-                            <h2 class="display-4">Learn about the Culture</h2>
-                            <p>Not knowing where and what to eat? Our blog section will convince you why Pampanga is truly the Culinary Capital of the Philippines.  
-                                There you will indulge a wide variety of dishes from their famous Sisig to their Paella. Exotic dishes will surely tickle your tastebuds from Betute, or deep fried stuffed frog, to their Kamaru, or mole crickets! 
-                                Tara! Mangan Tamu!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <br>
         <!--News And Blogs-->
         <hr>
-        <center><h1>News</h1></center>
+        <h1 class="display-4 text-center">News</h1>
         <br>
             <div class= "container">
                 <div class= "row">

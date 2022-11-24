@@ -1,4 +1,4 @@
-<?php session_start();?>
+<?php ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +12,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <link href="css/blogs.css" rel="stylesheet">
     <link href="css/arts_newsletter.css" rel="stylesheet">
-    <link href="gallery.css" rel="stylesheet">
+    <link href="css/gallery.css" rel="stylesheet">
     <link rel="shortcut icon" href="https://raw.githubusercontent.com/dejaaay/Cabelen/main/assets/img/Cabalen.png">
     <title>Kapampangan Culture Blog Page</title>
 </head>
