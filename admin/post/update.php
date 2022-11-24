@@ -1,9 +1,19 @@
 <?php
-session_start();
 include 'connect.php';
-if (!isset($_SESSION['UserData']['user_email'])) {
-  header("location:../../signup.php");
-  exit;
+$id = $_GET['updateid'];
+if (isset($_POST['submit'])) {
+  $image = $_POST['image'];
+  $title = $_POST['title'];
+  $description = $_POST['description'];
+
+  $sql = "update `posting` set id=$id, image='$image', title=''$title', 
+  description='$description' where id=$id";
+  $result = mysqli_query($con, $sql);
+  if ($result) {
+    header('location:create.php');
+  } else {
+    die(mysqli_error($con));
+  }
 }
 ?>
 <!doctype html>
@@ -19,7 +29,7 @@ if (!isset($_SESSION['UserData']['user_email'])) {
 </head>
 
 <body>
-  <div class="d-flex p-3">
+  <div class="d-flex">
     <!-- Sidebar -->
     <div class="p-3">
       <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
@@ -53,53 +63,28 @@ if (!isset($_SESSION['UserData']['user_email'])) {
     </div>
     <!-- End of sidebar -->
     <!-- Make Announcement -->
-    <div class="container">
-      <table class="table table-striped table-hover">
-        <thead class="">
-          <tr>
-            <th scope="col">ID</th>
-            <th scope="col">Image</th>
-            <th scope="col">Title</th>
-            <th scope="col">Description</th>
-            <th scope="col">Operation</th>
-          </tr>
-        </thead>
+    <div class="container p-5">
+      <div class="card">
+        <h5 class="card-header bg-primary text-white text-center">Make Announcement</h5>
+        <div class="card-body">
+          <form action="#" method="post">
+            <div class="mb-3">
+              <label>File input: </label>
+              <input class="form-control" type="file" id="image" name="image">
+            </div>
+            <div class="mb-3">
+              <label>Title:</label>
+              <input type="text" class="form-control" id="title" name="title">
+            </div>
+            <div class="mb-3">
+              <label>Description:</label>
+              <textarea class="form-control" id="description" rows="3" name="description"></textarea>
+            </div>
 
-        <?php
-  $sql = "Select * from `posting`";
-  $result = mysqli_query($con, $sql);
-  if ($result) {
-    while ($row = mysqli_fetch_assoc($result)) {
-      $id = $row['id'];
-      $image = $row['image'];
-      $title = $row['title'];
-      $description = $row['description'];
-      echo '<tr>
-      <th scope="row">' . $id . '</th>
-      <td>' . $image . '</td>
-      <td>' . $title . '</td>
-      <td>' . $description . '</td>
-      <td>
-      <button class="btn btn-primary">
-        <a href="update.php? updateid=' . $id . '" class="text-light">Update</a></button>
-        <button class="btn btn-danger">
-        <a href="delete.php? deleteid=' . $id . '" class="text-light">Remove</a></button>
-        </td>
-      </tr>';
-    }
-    ;
-
-
-  }
-  ;
-
-  ?>
-        <tbody>
-        </tbody>
-      </table>
-      <button class="btn btn-primary my-5">
-        <a href="announcement.php" class="text-light">Add Announcement</a>
-      </button>
+            <input type="submit" class="btn btn-primary" name="submit"></input>
+          </form>
+        </div>
+      </div>
     </div>
     <!-- End of Make Announcement -->
   </div>
