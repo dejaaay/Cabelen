@@ -39,7 +39,7 @@
                   <div class="card">
                     <div class="card-body">
                         <h5 class="card-title"><?php echo $title = $row['title'];?></h5>
-                        <img src="admin/post/images<?php echo $row['image']; ?>" class="card-img-bottom" alt="...">
+                        <img src="admin/post/<?php echo $row['image']; ?>" class="card-img-bottom" alt="...">
                     </div>
                     <p class="card-text"><?php echo $description = $row['description'];?></p>
                     </div>  
