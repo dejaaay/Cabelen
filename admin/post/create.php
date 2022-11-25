@@ -69,9 +69,9 @@ if (!isset($_SESSION['UserData']['user_email'])) {
       <td>' . $title . '</td>
       <td>' . $description . '</td>
       <td>
-      <button class="btn btn-success">
+      <button class="btn btn-success m-2">
         <a href="update.php? updateid=' . $id . '" class="text-light">Update</a></button>
-        <button class="btn btn-danger">
+        <button class="btn btn-danger m-2">
         <a href="delete.php? deleteid=' . $id . '" class="text-light">Remove</a></button>
         </td>
       </tr>';
@@ -86,7 +86,7 @@ if (!isset($_SESSION['UserData']['user_email'])) {
         <tbody>
         </tbody>
       </table>
-      <button class="btn btn-success my-5">
+      <button class="btn btn-success m-5">
         <a href="announcement.php" class="text-light">Add Announcement</a>
       </button>
     </div>

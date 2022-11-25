@@ -15,39 +15,11 @@
     </head>
     
     <body>
-    <!--Navbar-->
-    <nav class="navbar navbar-expand-sm navbar-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand logo" href="index.php" id="logo">
-            <img src="img/CabalenLight.png" alt="Cabalen Logo" width="120" height="72">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.php">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="gallery.php">Blogs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="events.php">Events</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="videos.php">Videos</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!--End of Navbar-->
-    <div class="container">
-      <div class="row-lg-12">
+    <?php include "navbar.php"; ?>
+    <ul>
         <?php
         ?>
-        <div class="container">
+        <div class="events">
         <?php
         require 'admin/post/connect.php';
 
@@ -61,7 +33,8 @@
             $description = $row['description'];
             echo 
             '
-            
+            <div class="container">
+              <div class="row-lg-12">
                 <div class="col-md-4">
                   <div class="card">
                     <div class="card-body">
@@ -72,7 +45,9 @@
                     </div>  
                   </div>
                 </div>
-              
+              </div>
+            </div>
+            
             ';
           }
           ;
@@ -81,7 +56,6 @@
         }
         ;
         ?>
-    </div>
-  </div>
+    </ul>
       </body>
       </html>

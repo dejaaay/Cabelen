@@ -1,4 +1,17 @@
 <?php ?>
+<style>
+.navbar{
+    background-color: #253532;
+}
+.logo{
+	margin-left: 30px;
+}
+ul{
+    position: absolute;
+    right: 50px;
+	list-style: none;
+}  
+</style>
 <nav class="navbar navbar-expand-sm navbar-dark">
   <div class="container-fluid">
     <a class="navbar-brand logo" href="index.php" id="logo">

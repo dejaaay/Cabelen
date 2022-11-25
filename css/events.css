@@ -6,14 +6,21 @@
 }
 ul{
     position: absolute;
-    right: 50px;
+    right: 500px;
 	list-style: none;
 }
+.events{
+    padding-top: 30px;
+}
 .card{
-    width: 200px;
-    height: 250px;
+    width: 1300px;
+    height: 500px;
     padding: 20px;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 30px 10px #B7CDCA;
 }
 .container{
-    margin: 20px;
+    margin: 20px 60px 20px 75px;
+    align-items: center;
 }
