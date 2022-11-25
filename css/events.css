@@ -1,0 +1,19 @@
+.navbar{
+    background-color: #253532;
+}
+.logo{
+	margin-left: 30px;
+}
+ul{
+    position: absolute;
+    right: 50px;
+	list-style: none;
+}
+.card{
+    width: 200px;
+    height: 250px;
+    padding: 20px;
+}
+.container{
+    margin: 20px;
+}

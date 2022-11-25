@@ -16,7 +16,7 @@
           <a class="nav-link" href="gallery.php">Blogs</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="CultArts_blogs.php">Events</a>
+          <a class="nav-link" href="events.php">Events</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="videos.php">Videos</a>
