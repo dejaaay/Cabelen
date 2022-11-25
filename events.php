@@ -12,43 +12,43 @@
         <link href="css/events.css" rel="stylesheet">
         <link rel="shortcut icon" href="https://raw.githubusercontent.com/dejaaay/Cabelen/main/assets/img/Cabalen.png">
         <title>Events</title>
+
     </head>
     
     <body>
-    <?php include "navbar.php"; ?>
+    <?php include "navbar.php"; 
+    ?>
     <ul>
-        <?php
-        ?>
+        
         <div class="events">
         <?php
-        require 'admin/post/connect.php';
-
-        $sql = "Select * from `posting`";
+        include 'admin/post/connect.php';
+        $sql = "SELECT * FROM `posts`";
         $result = mysqli_query($con, $sql);
-        if ($result) {
+        $check=mysqli_num_rows($result)>0;
+        if ($check) {
           while ($row = mysqli_fetch_assoc($result)) {
-            $id = $row['id'];
-            $image = $row['image'];
-            $title = $row['title'];
-            $description = $row['description'];
-            echo 
-            '
+ 
+            ?>
+      
+         
+            
             <div class="container">
               <div class="row-lg-12">
                 <div class="col-md-4">
                   <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">'. $title .'</h5>
-                        <img src="'.$image.'" class="card-img-bottom" alt="...">
+                        <h5 class="card-title"><?php echo $title = $row['title'];?></h5>
+                        <img src="admin/post/images<?php echo $row['image']; ?>" class="card-img-bottom" alt="...">
                     </div>
-                    <p class="card-text">'. $description .'</p>
+                    <p class="card-text"><?php echo $description = $row['description'];?></p>
                     </div>  
                   </div>
                 </div>
               </div>
             </div>
+            <?php
             
-            ';
           }
           ;
 

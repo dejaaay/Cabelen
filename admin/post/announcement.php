@@ -1,20 +1,4 @@
-<?php
-include 'connect.php';
-if (isset($_POST['submit'])) {
-  $image = $_POST['image'];
-  $title = $_POST['title'];
-  $description = $_POST['description'];
 
-  $sql = "insert into `posting` (image,title,description)
-  values('$image','$title','$description')";
-  $result = mysqli_query($con, $sql);
-  if ($result) {
-    header('location:create.php');
-  } else {
-    die(mysqli_error($con));
-  }
-}
-?>
 <!doctype html>
 <html lang="en">
 
@@ -77,7 +61,7 @@ ul{
       <div class="card">
         <h5 class="card-header bg-success text-white text-center">Make Announcement</h5>
         <div class="card-body">
-          <form action="#" method="post">
+          <form action="create.php" action="admin/post/events.php" method="post" enctype="multipart/form-data">
             <div class="mb-3">
               <label>File input: </label>
               <input class="form-control" type="file" id="image" name="image">

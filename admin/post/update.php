@@ -1,7 +1,7 @@
 <?php
 include 'connect.php';
 $id = $_GET['updateid'];
-$sql="Select * from `posting` where id=$id";
+$sql="Select * from `posts` where id=$id";
 $result=mysqli_query($con,$sql);
 $row=mysqli_fetch_assoc($result);
 $image=$row['image'];
@@ -13,7 +13,7 @@ if (isset($_POST['submit'])) {
   $title = $_POST['title'];
   $description = $_POST['description'];
 
-  $sql = "update `posting` set id=$id, image='$image', title='$title', 
+  $sql = "update `posts` set id=$id, image='$image', title='$title', 
   description='$description' where id=$id";
   $result = mysqli_query($con, $sql);
   if ($result) {

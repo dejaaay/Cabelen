@@ -2,7 +2,7 @@
 include ('connect.php');
 if (isset($_GET['deleteid'])){
     $id=$_GET['deleteid'];
-    $sql="delete from `posting` where id=$id";
+    $sql="delete from `posts` where id=$id";
     $result=mysqli_query($con,$sql);
     if ($result) {
         header('location:create.php');

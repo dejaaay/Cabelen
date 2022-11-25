@@ -6,6 +6,68 @@ if (!isset($_SESSION['UserData']['user_email'])) {
   exit;
 }
 ?>
+<?php
+if (isset($_POST['submit'])) {
+  $image = $_FILES['image'];
+  $title = $_POST['title'];
+  $description = $_POST['description'];
+  //print_r ($image);
+  //echo "<br>";
+  $imagefilename=$image['name'];
+  // print_r($imagefilename);
+  //echo "<br>";
+  $imagefileerror=$image['error'];
+  //print_r($imagefileerror);
+  //echo "<br>";
+  $imagefiletemp=$image['tmp_name'];
+  //print_r($imagefiletemp);
+  //echo "<br>";
+
+  $filename_seperate=explode('.',$imagefilename);
+  //print_r($filename_seperate);
+  // echo "<br>";
+  $file_extension=strtolower(end($filename_seperate));
+  // print_r($file_extension);
+  $extnesion=array('jpeg','jpg','png');
+  
+  if(in_array($file_extension,$extnesion)){
+    $upload_image='images/'.$imagefilename;
+    move_uploaded_file($imagefiletemp,$upload_image);
+  }
+
+  $sql = "insert into `posts` (image,title,description)
+  values('$upload_image','$title','$description')";
+  $result = mysqli_query($con, $sql);
+  echo '<nav class="navbar navbar-expand-sm navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand logo" href="index.php" id="logo">
+        <img src="asset/CabalenLight.png" alt="Cabalen Logo" width="120" height="72">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.php">Logout</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>';
+  if ($result) {
+      echo '<div class="alert alert-success" role="alert">
+      Succesfully added anevent!
+    </div>';
+  } else {
+    die(mysqli_error($con));
+  }
+
+}
+?>
+
+
+
 <!doctype html>
 <html lang="en">
 
@@ -18,26 +80,14 @@ if (!isset($_SESSION['UserData']['user_email'])) {
   <script src="https://kit.fontawesome.com/6e2e82ae66.js" crossorigin="anonymous"></script>
   <link href="asset/create.css" rel="stylesheet">
   <link rel="shortcut icon" href="https://raw.githubusercontent.com/dejaaay/Cabelen/main/assets/img/Cabalen.png">
+  <style>
+          img{
+            width: 200px;
+          }
+        </style>
 </head>
 <body>
-  <!--Navbar-->
-    <nav class="navbar navbar-expand-sm navbar-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand logo" href="index.php" id="logo">
-            <img src="asset/CabalenLight.png" alt="Cabalen Logo" width="120" height="72">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.php">Logout</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    
   <!--End of Navbar-->
   <div class="d-flex p-3">
     
@@ -55,7 +105,7 @@ if (!isset($_SESSION['UserData']['user_email'])) {
         </thead>
 
         <?php
-  $sql = "Select * from `posting`";
+  $sql = "Select * from `posts`";
   $result = mysqli_query($con, $sql);
   if ($result) {
     while ($row = mysqli_fetch_assoc($result)) {
@@ -65,7 +115,7 @@ if (!isset($_SESSION['UserData']['user_email'])) {
       $description = $row['description'];
       echo '<tr>
       <th scope="row">' . $id . '</th>
-      <td>' . $image . '</td>
+      <td> <img src="' .$image. '"/></td>
       <td>' . $title . '</td>
       <td>' . $description . '</td>
       <td>
