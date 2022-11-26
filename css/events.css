@@ -1,9 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .navbar{
     background-color: #253532;
 }
 .logo{
 	margin-left: 30px;
+    width: 120px;
+    height: 72px;
 }
+
 ul{
     position: absolute;
     right: 500px;
@@ -12,15 +24,42 @@ ul{
 .events{
     padding-top: 30px;
 }
+.card-header{
+    width: 1300px;
+    height: 50px;
+    text-align: center;
+    padding-top: 17px;
+    font-weight: 600;
+}
 .card{
     width: 1300px;
-    height: 500px;
-    padding: 20px;
+    height: 900px;
+    padding-bottom: 100px;
     align-items: center;
     background-color: #fff;
     box-shadow: 0px 0px 30px 10px #B7CDCA;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.card-title{
+    text-align: center;
+    padding: 20px;
+    font-size: xx-large;
+    font-weight: bold;
 }
 .container{
-    margin: 20px 60px 20px 75px;
+    margin: 40px 60px 20px 75px;
     align-items: center;
+    
+}
+.card-img-bottom{
+    height: 500px;
+    width: 900px;
+    align-items: baseline;
+}
+.card-text{
+    font-size: medium;
+    font-weight: 400;
+    text-align: center;
+    padding-left: 50px;
 }

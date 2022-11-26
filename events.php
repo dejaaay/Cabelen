@@ -37,12 +37,15 @@
               <div class="row-lg-12">
                 <div class="col-md-4">
                   <div class="card">
+                    <div class="card-header bg-success text-white">
+                      F e a t u r e d   N e w s
+                    </div>
                     <div class="card-body">
                         <h5 class="card-title"><?php echo $title = $row['title'];?></h5>
-                        <img src="admin/post/<?php echo $row['image']; ?>" class="card-img-bottom" alt="...">
+                        <img src="admin/post/<?php echo $row['image']; ?>" class="card-img-bottom" alt="..." height="500" width="850">
                     </div>
                     <p class="card-text"><?php echo $description = $row['description'];?></p>
-                    </div>  
+                    </div>
                   </div>
                 </div>
               </div>
@@ -56,6 +59,6 @@
         }
         ;
         ?>
-    </ul>
+      </ul>
       </body>
       </html>

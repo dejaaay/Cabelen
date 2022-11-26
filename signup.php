@@ -23,6 +23,7 @@ if(isset($_POST['Submit'])) {
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/login.css" rel="stylesheet">
+        <link rel="shortcut icon" href="https://raw.githubusercontent.com/dejaaay/Cabelen/main/assets/img/Cabalen.png">
         <title>LogIn</title>
     </head>
     <style>

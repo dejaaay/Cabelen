@@ -30,50 +30,40 @@ if (isset($_POST['submit'])) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap demo</title>
+  <title>Update Announcement</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/6e2e82ae66.js" crossorigin="anonymous"></script>
+  <link href="asset/create.css" rel="stylesheet">
+  <link rel="shortcut icon" href="https://raw.githubusercontent.com/dejaaay/Cabelen/main/assets/img/Cabalen.png">
 </head>
 
 <body>
-  <div class="d-flex">
-    <!-- Sidebar -->
-    <div class="p-3">
-      <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
-        aria-controls="offcanvasExample">
-        <i class="fa-solid fa-bars"></i>
-      </a>
-    </div>
-
-
-    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-      <div class="offcanvas-body">
-        <div>
-          Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists,
-          etc.
-        </div>
-        <div class="dropdown mt-3">
-          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
-            Dropdown button
-          </button>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-sm navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand logo" href="index.php" id="logo">
+            <img src="asset/CabalenLight.png" alt="Cabalen Logo" width="120" height="72">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.php">Logout</a>
+            </li>
           </ul>
         </div>
       </div>
     </div>
-    <!-- End of sidebar -->
+  </nav>
+  <!--End of Navbar-->
+  <div class="d-flex">
     <!-- Make Announcement -->
     <div class="container p-5">
       <div class="card">
-        <h5 class="card-header bg-primary text-white text-center">Make Announcement</h5>
+        <h5 class="card-header bg-success text-white text-center">Make Announcement</h5>
         <div class="card-body">
           <form action="#" method="post">
             <div class="mb-3">
@@ -92,7 +82,7 @@ if (isset($_POST['submit'])) {
               echo $description; ?>></textarea>
             </div>
 
-            <input type="submit" class="btn btn-primary" name="submit"></input>
+            <input type="submit" class="btn btn-success" name="submit"></input>
           </form>
         </div>
       </div>

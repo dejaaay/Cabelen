@@ -38,26 +38,10 @@ if (isset($_POST['submit'])) {
   $sql = "insert into `posts` (image,title,description)
   values('$upload_image','$title','$description')";
   $result = mysqli_query($con, $sql);
-  echo '<nav class="navbar navbar-expand-sm navbar-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand logo" href="index.php" id="logo">
-        <img src="asset/CabalenLight.png" alt="Cabalen Logo" width="120" height="72">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="index.php">Logout</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>';
+  echo '';
   if ($result) {
       echo '<div class="alert alert-success" role="alert">
-      Succesfully added anevent!
+      Event added succesfully!
     </div>';
   } else {
     die(mysqli_error($con));
@@ -81,13 +65,34 @@ if (isset($_POST['submit'])) {
   <link href="asset/create.css" rel="stylesheet">
   <link rel="shortcut icon" href="https://raw.githubusercontent.com/dejaaay/Cabelen/main/assets/img/Cabalen.png">
   <style>
-          img{
-            width: 200px;
-          }
-        </style>
+    .logo{
+      width: 120px;
+      height: 72px;
+    }
+   .images{
+     width: 200px;
+   }
+  </style>
 </head>
 <body>
-    
+  <!--End of Navbar-->
+<nav class="navbar navbar-expand-sm navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand logo" href="index.php" id="logo">
+        <img class="logo" src="asset/CabalenLight.png" alt="Cabalen Logo" width="120" height="72">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.php">Logout</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
   <!--End of Navbar-->
   <div class="d-flex p-3">
     
@@ -115,7 +120,7 @@ if (isset($_POST['submit'])) {
       $description = $row['description'];
       echo '<tr>
       <th scope="row">' . $id . '</th>
-      <td> <img src="' .$image. '"/></td>
+      <td> <img src="' .$image. '" class="images"/></td>
       <td>' . $title . '</td>
       <td>' . $description . '</td>
       <td>

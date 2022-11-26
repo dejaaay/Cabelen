@@ -6,6 +6,8 @@ body {
 }
 .logo{
 	margin-left: 30px;
+    width: 120px;
+    height: 72px;
 }
 ul{
     position: absolute;
